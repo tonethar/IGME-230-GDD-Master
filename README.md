@@ -1,1 +1,1 @@
-# IGME-230 GDD Master
+# IGME-230 Master
