@@ -219,6 +219,6 @@ The `end()` function transitions to the new screen, and empties out all of the a
 <hr>
 
 
- **[Previous Chapter <- Circle Blast! (part 1)](HW-circle-blast.md)**
+ **[Previous Chapter <- Circle Blast! (part 1)](HW-circle-blast-1.md)**
  
  **[Next Chapter -> Circle Blast! (part 3)](HW-circle-blast-3.md)**
