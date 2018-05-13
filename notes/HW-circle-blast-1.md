@@ -1,4 +1,4 @@
-# HW - Circle Blast! Part I
+# HW - Circle Blast! - Part 1
 
 ## Contents
 <!--- Local Navigation --->
