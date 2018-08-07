@@ -186,10 +186,11 @@ Here is the form and PHP code you will need to get everything working. Be sure t
  <?php   
  	// ** Form validation code **
  	// We will use the $_POST "super global" associative array to extract the values of the form fields
-    if (isset($_POST["submit"])){ // #1 - was the submit button pressed?
-    	$to = "abc1234@rit.edu"; // REPLACE WITH YOUR EMAIL
+	// #1 - was the submit button pressed?
+    if (isset($_POST["submit"])){ 
+    	$to = "abc1234@rit.edu"; // !!! REPLACE WITH YOUR EMAIL !!!
     	
-    	// #2 - if a value for the `email` from field is missing, give a default value
+    	// #2 - if a value for the `email` form field is missing, give a default value
     	// else, use the value from the form field
 			$from = empty(trim($_POST["email"])) ? "noemail@sample.com" : sanitize_string($_POST["email"]);
 			
