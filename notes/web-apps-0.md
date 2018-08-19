@@ -1,17 +1,17 @@
 # About this Web App Tutorial Series
-## I. Overview
+## I. Overview <a id="section1"></a>
 This series of tutorials/lecture notes will get you started in creating web applications, which are *client-server* applications in which the client code runs in a web browser. 
 
-## II. Prerequisite knowledge
+## II. Prerequisite knowledge <a id="section2"></a>
 - The HTML/CSS which we covered in this class
 - CSS selectors (in particular the [CSS3 selectors](https://www.w3.org/TR/css3-selectors/#selectors)) will come in handy
 - Fundamental programming concepts that you gleaned from the (at least) 2 programming classes you have taken prior to this course.
 
-## III. How to get the most out of these tutorials
+## III. How to get the most out of these tutorials <a id="section3"></a>
 - Try out the code samples! Tweak and modify them! Most of the code samples are 100% complete. You just need to copy the code and paste it into a text file, and save it to your desktop. You can then make changes to the code and preview them in a web browser (we will be using Chrome)
 - Be sure to answer all of the questions at the end of each section, and to do the review exercises.
 
-## IV. The Tutorials
+## IV. The Tutorials <a id="section4"></a>
 1. [Introduction to Web Applications](./web-apps-1.md):
     1. what is a web app?
     1. what components of the web browser can I program?
@@ -77,7 +77,7 @@ This series of tutorials/lecture notes will get you started in creating web appl
     1. JSON
     1. importing jQuery & utilizing `jQuery.ajax()`
 
-## V. Assignments
+## V. Assignments <a id="section5"></a>
 Refer to the mycourses dropboxes for due dates:
 - [Random Phrases 1](./HW-random-phrases-1.md)
 - [Random Phrases 2](./HW-random-phrases-2.md)
@@ -88,13 +88,13 @@ Refer to the mycourses dropboxes for due dates:
 
 \* the starred assignments are "walkthroughs", you just have to type the code in. Take your time and be sure you understand everything, if you don't, then be sure to ask in class!
 
-## VI. Demos
+## VI. Demos <a id="section6"></a>
 These demos could be nice starting points for Project 2:
 - [Adventure!](HW-adventure.md) - keyboard control and playing an audio effect sound.
 - [Chibi Card Matching Game](HW-chibi-matching.md) - 3D CSS tranforms and transitions.
 - [Conway's Game of Life](./HW-life.md) - animation by utilizing `window.requestAnimationFrame()` and a game loop.
 
-## VII. What has been left out of this series
+## VII. What has been left out of this series <a id="section7"></a>
 This course's content is primarily focused on giving students an introduction to web publishing, and an introduction to scripting a web browser for both applications and games. Later courses will go deeper and cover more topics, and there is very much more that that to learn about web applications on your own. Here are some major topics that we are NOT covering:
 
 - **Advanced JavaScript Concepts** will continue to be covered in downstream courses.
@@ -108,7 +108,7 @@ In later courses (IGME-330 & IGME-430) you will get the opportunity to read/writ
 - **Web Games** will be covered later in this course, and we will build several games or interactive experiences using the PixiJS rendering engine. Our class PixiJS materials can be found here: [pixi-js-0.md](./pixi-js-0.md)
 - **WebGL** is an implementation of OpenGL ES 2.0 that runs natively in web browsers, and is the fastest way to draw to the browser screen. WebGL shaders may be briefly looked at while we are covering PixiJS.
 
-## VIII. Resources
+## VIII. Resources <a id="section8"></a>
 - http://exploringjs.com/es6/index.html
 - https://developer.mozilla.org
 - http://diveintohtml5.info
