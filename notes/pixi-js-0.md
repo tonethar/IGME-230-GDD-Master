@@ -27,7 +27,7 @@ Before doing these exercises, you should have completed the entire [web app seri
  
 ## V. Assignments
 Refer to the mycourses dropboxes for due dates:
-- [Circle Blast! - part I](./HW-circle-blast.md)
+- [Circle Blast! - part I](./HW-circle-blast-1.md)
 - [Circle Blast! - part II](./HW-circle-blast-2.md)
 - [Circle Blast! - part III](./HW-circle-blast-3.md)
 - [Circle Blast! - part IV](./HW-circle-blast-4.md)
