@@ -14,6 +14,10 @@ Let's use the command line to connect to RIT's web server and request the defaul
 
 ## II. Try this on the Command Line
 
+**Important** - You will need the telnet command line application to do the following, which as no longer installed by deafult on Macs and PCs:
+- For a Mac, you can follow the instructions here to download and install it (this takes about 5 minutes): https://www.linkedin.com/pulse/how-install-telnet-mac-os-high-sierra-claudio-heidel/
+- Here are the instructions for a PC: https://www.technipages.com/windows-10-enable-telnet
+
 1. Launch the PuTTY Application (or Terminal on a Mac)
 
 2. Type `telnet www.rit.edu 80`and press return.
