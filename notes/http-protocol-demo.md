@@ -35,7 +35,7 @@ Escape character is '^]'.
 
 5. Press return again. (In the HTTP request protocol, a blank line indicates that there are no more request headers)
 
-Now you should first get the *HTTP Status Code* and  *HTTP Response Headers* back from the web server.
+Now you should first get the *HTTP Version* that the RIT server is using, the *HTTP Status Code*, and multiple *HTTP Response Headers* back from the server.
 
 ```
 HTTP/1.1 200 OK
