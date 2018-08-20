@@ -195,7 +195,7 @@ When you are done it should look like this:
 ### ** *Try This!* **
 - In *hello-4.php* write code that:
     - adds a &lt;style> tag to the page - it should make the default font on the entire page `sans-serif`. Just use HTML and CSS to do this, not PHP.
-    - wraps the "page accessed on" text into a &lt;footer> tag. Change the "date string" to something different - see the documentation here: http://php.net/manual/en/function.date.php
+    - wraps the "page accessed on" text into a &lt;footer> tag. Change the "date string" to something different and more readable - see the documentation here: http://php.net/manual/en/function.date.php
 
 <hr>
 
