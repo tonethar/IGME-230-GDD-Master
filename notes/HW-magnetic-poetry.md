@@ -4,7 +4,7 @@
 - In this assignment you will create a "magnetic poetry" application that allows the user to reposition words on the screen to create their own poems.
 - This assignment uses a lot of the CSS we have seen this semester including *CSS transforms* and *absolute positioning*.
 - The completed assignment will also utilize some new mouse events (for us) including `mousedown`, `mouseup`, and `mousemove`. 
-- To do this assignment, you should have completed at least the 7th web app tutorial page - "JavaScript Object Literals".
+- To do this assignment, you should have completed at least the [7th web app tutorial page - "JavaScript Object Literals"](./web-apps-7.md).
 - Below is what the completed version will look like: 
 
 ![Web Page](_images/mag-poetry-done.jpg)
