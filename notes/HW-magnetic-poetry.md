@@ -312,9 +312,9 @@ We are almost done - we just need to get the word dragging working by adding sup
 
 #### A. Explanation
 - #12 above - `setupDragging()` is adding mouse events to the document so that the user can drag words around 
-- #13 above - in `document.onmousemove` we drag the word to the position of the mouse, and have to adjust our coordinates so that we always drag from the middle of the word, not the edge. Note that the **move cursor* that appears when we mouse over the words is done by our CSS.
+- #13 above - in `document.onmousemove` we drag the word to the position of the mouse, and have to adjust our coordinates so that we always drag from the middle of the word, not the edge. Note that the **move cursor** that appears when we mouse over the words is done by our CSS.
 - #14 above - in `document.onmouseup` we clear out `selectedElement`, and make sure that the word we just selected is not at the highest z-index.
-- #15 above - in our `getMousePos()` helper function we are merely translating the window coordinates we get from the event handler to the equivalent #fridge coordinates. This just means we subtract the left and top values of `#fridge` from the numbers we get from the mouse event. **Example:** 10,10 in window coordinates is roughly 0,0 in `#fridge` coordinates.
+- #15 above - in our `getMousePos()` helper function we are merely translating the window coordinates we get from the event handler to the equivalent `#fridge` coordinates. This just means we subtract the left and top values of `#fridge` from the numbers we get from the mouse event. **Example:** 10,10 in window coordinates is roughly 0,0 in `#fridge` coordinates.
 
 ### Submission
 - That's enough. We're not going to make you do anything else to this, congratulations on your typing acumen!
