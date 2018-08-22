@@ -16,7 +16,7 @@ Here's the starter code:
 
 **random-activity.php**
 
-```php
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -61,7 +61,7 @@ Here's the starter code:
 
 **Let's write the PHP code that downloads the data from the web service - add the following the the file:**
 
-```php
+```html
 <!-- PHP will start here -->
 <?php
 	// 1- the web service documentation
