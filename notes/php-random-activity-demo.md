@@ -92,7 +92,7 @@ Here's the starter code:
 - to learn how this code works, read the comments above, and check out the documentation
 - go ahead and click the Submit button on the page, it should reload the page, which will then download and display the activity
 
-## IV. Dicussion
+## IV. Discussion
 
 - That was pretty easy, it really was. And you will eventually see that downloading web services on the *client-side* using JavaScript is a little more involved
 - For a challenge, create a new PHP acript named **random-joke.php** and try using this [Chuck Norris Web Service](http://www.icndb.com/api/) to instead download a random joke
