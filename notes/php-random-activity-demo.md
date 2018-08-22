@@ -95,6 +95,6 @@ Here's the starter code:
 ## IV. Discussion
 
 - That was pretty easy, it really was. And you will eventually see that downloading web services on the *client-side* using JavaScript is a little more involved
-- For a challenge, create a new PHP acript named **random-joke.php** and try using this [Chuck Norris Web Service](http://www.icndb.com/api/) to instead download a random joke
+- For a challenge, create a new PHP script named **random-joke.php** and try using this [Chuck Norris Web Service](http://www.icndb.com/api/) to instead download a random joke
 - Another challenge would to switch back to the [Bored API](https://www.boredapi.com/about), and add a form field that would allow the user to specify different types of activities - there are 7 different types:
 "education", "recreational", "social", "diy", "charity", "cooking", "relaxation", "music", and "busywork". See the Bored API docs about how to do this
