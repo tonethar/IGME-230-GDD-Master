@@ -8,6 +8,7 @@
 ![Image](_images/random-activity-1.jpg)
 
 - Clicking the button causes the PHP page to reload, and the PHP script to request another activity from the web service
+- This is similar to what our PHP contact form did, but in this case we are not passing any additional information to the PHP script
 
 
 ## II. Get Started
@@ -57,7 +58,7 @@ Here's the starter code:
 - If you create this page and post it to a web server, you'll see the page title and the button, but no "activity text"
 - Clicking the button reloads the page, but nothing else happens
 
-# III. Finish it up
+## III. Finish it up
 
 **Let's write the PHP code that downloads the data from the web service - add the following the the file:**
 
@@ -74,7 +75,7 @@ Here's the starter code:
 	// http://php.net/manual/en/function.file-get-contents.php
 	$json =  file_get_contents($serviceURL);
 	
-	// 4 - conver the JSON string to a PHP object
+	// 4 - convert the JSON string to a PHP object
 	// http://php.net/manual/en/function.json-decode.php
 	$obj = json_decode($json); 
 	
@@ -91,3 +92,10 @@ Here's the starter code:
 
 - to learn how this code works, read the comments above, and check out the documentation
 - go ahead and click the Submit button on the page, it should reload the page, which will then download and display the activity
+
+## IV. Dicussion
+
+- That was pretty easy, it really was. Downloading web services on the *client-side* using JavaScript is a little more involved
+- For a challenge, try using this [Chuck Norris Web Service](http://www.icndb.com/api/) to download a random joke
+- Another challenge would to switch back to the bored API, add form fields that would allow the user to specify different types of activities with a form field - there are 7 different types - 
+"education", "recreational", "social", "diy", "charity", "cooking", "relaxation", "music", and "busywork" - see the API docs about this
