@@ -61,7 +61,7 @@ Here's the starter code:
 
 **Let's write the PHP code that downloads the data from the web service - add the following the the file:**
 
-```html
+```php
 <!-- PHP will start here -->
 <?php
 	// 1- the web service documentation
