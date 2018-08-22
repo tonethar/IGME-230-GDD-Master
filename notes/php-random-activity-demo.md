@@ -41,14 +41,15 @@ Here's the starter code:
 	</style>
 </head>
 <body>
-<h1>Something you could do if you are bored ...</h1>
+   <h1>Something you could do if you are bored ...</h1>
 
-<!-- PHP will start here -->
+   <!-- PHP will start here -->
 
-<!-- PHP will end here -->
-	<form action="random-activity.php" method="post">
-		<input type="submit" value="Get another Activity!">
-	</form>
+   <!-- PHP will end here -->
+	
+   <form action="random-activity.php" method="post">
+      <input type="submit" value="Get another Activity!">
+   </form>
 </body>
 </html>
 ```
