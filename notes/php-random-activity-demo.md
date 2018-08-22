@@ -10,7 +10,6 @@
 - Clicking the button causes the PHP page to reload, and the PHP script to request another activity from the web service
 - This is similar to what our PHP contact form did, but in this case we are not passing any additional information to the PHP script
 
-
 ## II. Get Started
 
 Here's the starter code:
@@ -98,4 +97,4 @@ Here's the starter code:
 - That was pretty easy, it really was. And you will eventually see that downloading web services on the *client-side* using JavaScript is a little more involved
 - For a challenge, create a new PHP acript named **random-joke.php** and try using this [Chuck Norris Web Service](http://www.icndb.com/api/) to instead download a random joke
 - Another challenge would to switch back to the [Bored API](https://www.boredapi.com/about), add form fields that would allow the user to specify different types of activities with a form field - there are 7 different types - 
-"education", "recreational", "social", "diy", "charity", "cooking", "relaxation", "music", and "busywork" - see the API docs about this
+"education", "recreational", "social", "diy", "charity", "cooking", "relaxation", "music", and "busywork" - see the Bored API docs about how to do this
