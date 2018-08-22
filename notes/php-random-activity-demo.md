@@ -54,5 +54,40 @@ Here's the starter code:
 </html>
 ```
 
+- If you create this page and post it to a web server, you'll see the page title and the button, but no "activity text"
+- Clicking the button reloads the page, but nothing else happens
 
+# III. Finish it up
 
+**Let's write the PHP code that downloads the data from the web service - add the following the the file:**
+
+```php
+<!-- PHP will start here -->
+<?php
+	// 1- the web service documentation
+	// https://www.boredapi.com/about
+
+	// 2 - URL to the web service's main entry point
+	$serviceURL = 'http://boredapi.com/api/activity/';
+
+	// 3 - Fetch the JSON file and store it as a string
+	// http://php.net/manual/en/function.file-get-contents.php
+	$json =  file_get_contents($serviceURL);
+	
+	// 4 - conver the JSON string to a PHP object
+	// http://php.net/manual/en/function.json-decode.php
+	$obj = json_decode($json); 
+	
+	// 5 - grab the value of the .activity property
+	// $obj is an object that contains all of the properties we got back from the web service
+	// in PHP we use arrow syntax to access properties of an object
+	$activity =  $obj->activity; 
+	
+	// 6 - echo it out!
+	echo "<p>$activity!</p>";
+?>
+<!-- PHP will end here -->
+```
+
+- to learn how this code works, read the comments above, and check out the documentation
+- go ahead and click the Submit button on the page, it should reload the page, which will then download and display the activity
