@@ -82,7 +82,8 @@ Refer to the mycourses dropboxes for due dates:
 - [Random Phrases 1](./HW-random-phrases-1.md)
 - [Random Phrases 2](./HW-random-phrases-2.md)
 - [Image Gallery](./HW-image-gallery.md)
-- [Magnetic Poetry\*](./HW-magnetic-poetry.md) **OR** [Pixel Artist\*](./HW-pixel-artist.md)
+- [Magnetic Poetry\*](./HW-magnetic-poetry.md) 
+- [Pixel Artist\*](./HW-pixel-artist.md)
 - ["GIF Finder" Web Service App](./HW-gif-finder.md)
 
 \* the starred assignments are "walkthroughs", you just have to type the code in. Take your time and be sure you understand everything, if you don't, then be sure to ask in class!
