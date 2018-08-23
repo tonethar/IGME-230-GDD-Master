@@ -259,7 +259,7 @@ We need to write code to build a URL to the web service. This URL will contain t
 
 ### C. Modify the URL in the location box
 
-Below we changed the `q` parameter to `dogs` and the `limit` parameter to `2`
+Below we changed the `q` parameter to `dogs` and the `limit` parameter to `2` - you can see we received a different JSON file from the server!
 
 ![Web Page](_images/gif-finder-6.jpg)
 
