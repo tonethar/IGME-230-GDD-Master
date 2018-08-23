@@ -59,7 +59,7 @@ Here's the starter code:
 
 ## III. Finish it up
 
-**Let's write the PHP code that downloads the data from the web service - add the following the the file:**
+**Let's write the PHP code that downloads the data from the web service - add the following code to the file:**
 
 ```php
 <!-- PHP will start here -->
