@@ -1,4 +1,4 @@
-# Using PHP to detect the HTTP User-Agent string
+# Using PHP to detect the HTTP *User-Agent string*
 
 ## I. Overview
 - In software development, a **user agent** is software that acts on behalf of a user. In the HTTP protocol, a user agent is a client application that submits HTTP requests. Examples of HTTP clients include web browsers, 'bots such as search engine web crawlers, and apps that consume HTTP services (weather, stock quotes, etc)
