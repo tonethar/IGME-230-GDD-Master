@@ -106,7 +106,7 @@ Above we are sending meaningless HTML, but you could modify this script to inste
 
 ## VI. Discussion
 - An alternative to browser sniffing and "forked" HTML is to instead use [CSS Media Queries](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries)
-- What this does is that server send the same HTML to add user agents, but the browser will decide which CSS rules (and/or CSS files) to use based on the *capabilities* of the web browser i.e. screen size, screen color depth, etc
+- What this does is that server send the same HTML to all user agents, but the individual browser will decide which CSS rules (and/or CSS files) to use based on the *capabilities* of the web browser i.e. screen size, screen color depth, screen orientation, etc
 - We will be learning about media queries in this course very soon!
 
 ## VII. Reference
