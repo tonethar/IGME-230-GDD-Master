@@ -52,9 +52,53 @@
 </html>
 ```
 
+## IV. Filtering the HTML based on the user-agent
 
+Here is a simple program that will deliver different HTML to a device depending on whether it is a iPAd, iPhone, or Android device. If the device is none of these, it will receive a default HTML page. 
 
-## IV. Reference
+**user-agent-demo.php**
+```html
+<?php
+// https://github.com/serbanghita/Mobile-Detect/blob/master/Mobile_Detect.php
+
+// 1 - grab the browser's declared user-agent string from the $_SERVER "superglobal"
+$useragent = $_SERVER['HTTP_USER_AGENT'];
+
+// 2 - This will be the default HTML we will display
+$html = "<h1>Here's some 'desktopish' HTML</h1>";
+
+// 3 - but if the user-agent string contains "iPhone", use this HTML instead
+if (strpos($useragent, "iPhone") !== false) {
+  $html = "<h1>Here's some 'iPhoneish' HTML</h1>";
+}
+
+// 4 - but if the user-agent string contains "iPad", use this HTML instead
+if (strpos($useragent, "iPad") !== false) {
+  $html = "<h1>Here's some 'iPadish' HTML</h1>";
+}
+
+// 5 - but if a device is an Android, use this HTML instead
+if (strpos($useragent, "Android") !== false) {
+  $html = "<h1>Here's some 'Androidish' HTML</h1>";
+}
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title></title>
+</head>
+<body>
+  <?php 
+    echo $html;
+    echo "<p>BTW - your browser's user agent string is: <b>$useragent</b></p>"; 
+  ?>
+</body>
+</html>
+```
+
+## V. Reference
 - https://en.wikipedia.org/wiki/User_agent
 - https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol
 - https://en.wikipedia.org/wiki/List_of_HTTP_header_fields
