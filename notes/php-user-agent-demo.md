@@ -32,7 +32,7 @@
 
 ## III. What's my user-agent string?
 
-- point your browser here to see: https://www.esolutions.se/whatsmyinfo
+- point your browser here to see it: https://www.esolutions.se/whatsmyinfo
 - or post this PHP script to your people.rit.edu account:
 
 **user-agent.php**
