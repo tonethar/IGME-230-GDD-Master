@@ -13,27 +13,21 @@
 - Here are some sample user agent strings:
 
 **Chrome on Mac OS:**
-
 `Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36`
 
 **Firefox on Android Mobile:**
-
 `Mozilla/5.0 (Android; Mobile; rv:14.0) Gecko/14.0 Firefox/14.0`
 
-**iPhone**
-
+**iPhone:**
 `Mozilla/5.0 (iPhone; CPU iPhone OS 8_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12A366 Safari/600.1.4`
 
-**GoogleBot**
-
+**GoogleBot:**
 `Googlebot/2.1 (+http://www.googlebot.com/bot.html)`
 
-**Amazon Kindle 3**
-
+**Amazon Kindle 3:**
 `Mozilla/5.0 (Linux; U; en-US) AppleWebKit/528.5+ (KHTML, like Gecko, Safari/528.5+) Version/4.0 Kindle/3.0 (screen 600x800; rotate)`
   
-**Pantech Feature Phone**
-
+**Pantech Feature Phone:**
 `PantechP7040/JLUS04042011; Mozilla/5.0 (Profile/MIDP-2.0 Configuration/CLDC-1.1; Opera Mini/att/4.2.16479; U; en-US) Opera 9.50`
 
 ## III. Reference
