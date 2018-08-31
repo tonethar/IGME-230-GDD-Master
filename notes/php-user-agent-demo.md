@@ -59,28 +59,28 @@ Here is a simple program that will deliver different HTML to a device depending 
 **user-agent-demo.php**
 ```html
 <?php
-// https://github.com/serbanghita/Mobile-Detect/blob/master/Mobile_Detect.php
+  // https://github.com/serbanghita/Mobile-Detect/blob/master/Mobile_Detect.php
 
-// 1 - grab the browser's declared user-agent string from the $_SERVER "superglobal"
-$useragent = $_SERVER['HTTP_USER_AGENT'];
+  // 1 - grab the browser's declared user-agent string from the $_SERVER "superglobal"
+  $useragent = $_SERVER['HTTP_USER_AGENT'];
 
-// 2 - This will be the default HTML we will display
-$html = "<h1>Here's some 'desktopish' HTML</h1>";
+  // 2 - This will be the default HTML we will display
+  $html = "<h1>Here's some 'desktopish' HTML</h1>";
 
-// 3 - but if the user-agent string contains "iPhone", use this HTML instead
-if (strpos($useragent, "iPhone") !== false) {
-  $html = "<h1>Here's some 'iPhoneish' HTML</h1>";
-}
+  // 3 - but if the user-agent string contains "iPhone", use this HTML instead
+  if (strpos($useragent, "iPhone") !== false) {
+    $html = "<h1>Here's some 'iPhoneish' HTML</h1>";
+  }
 
-// 4 - but if the user-agent string contains "iPad", use this HTML instead
-if (strpos($useragent, "iPad") !== false) {
-  $html = "<h1>Here's some 'iPadish' HTML</h1>";
-}
+  // 4 - but if the user-agent string contains "iPad", use this HTML instead
+  if (strpos($useragent, "iPad") !== false) {
+    $html = "<h1>Here's some 'iPadish' HTML</h1>";
+  }
 
-// 5 - but if a device is an Android, use this HTML instead
-if (strpos($useragent, "Android") !== false) {
-  $html = "<h1>Here's some 'Androidish' HTML</h1>";
-}
+  // 5 - but if a device is an Android, use this HTML instead
+  if (strpos($useragent, "Android") !== false) {
+    $html = "<h1>Here's some 'Androidish' HTML</h1>";
+  }
 ?>
 
 <!DOCTYPE html>
