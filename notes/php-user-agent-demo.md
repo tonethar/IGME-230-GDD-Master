@@ -30,7 +30,32 @@
 **Pantech Feature Phone:**
 `PantechP7040/JLUS04042011; Mozilla/5.0 (Profile/MIDP-2.0 Configuration/CLDC-1.1; Opera Mini/att/4.2.16479; U; en-US) Opera 9.50`
 
-## III. Reference
+## III. What's my user-agent string?
+
+- point your browser here to see: https://www.esolutions.se/whatsmyinfo
+- or post this PHP script to your people.rit.edu account:
+
+**user-agent.php**
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title></title>
+</head>
+<body>
+<?php echo $html; ?>
+  <?php 
+    $useragent = $_SERVER['HTTP_USER_AGENT'];
+    echo "<p>Your browser's user agent string is $useragent</p>"; 
+  ?>
+</body>
+</html>
+```
+
+
+
+## IV. Reference
 - https://en.wikipedia.org/wiki/User_agent
 - https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol
 - https://en.wikipedia.org/wiki/List_of_HTTP_header_fields
