@@ -36,7 +36,7 @@
 - or post this PHP script to your people.rit.edu account:
 
 **user-agent.php**
-```html
+```php
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -57,7 +57,7 @@
 Here is a simple program that will deliver different HTML to a device depending on whether it is a iPAd, iPhone, or Android device. If the device is none of these, it will receive a default HTML page. 
 
 **user-agent-demo.php**
-```html
+```php
 <?php
   // https://github.com/serbanghita/Mobile-Detect/blob/master/Mobile_Detect.php
 
