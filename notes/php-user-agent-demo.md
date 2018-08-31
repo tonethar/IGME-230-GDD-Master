@@ -54,7 +54,7 @@
 
 ## IV. Filtering the HTML based on the user-agent
 
-Here is a simple program that will deliver different HTML to a device depending on whether it is a iPAd, iPhone, or Android device. If the device is none of these, it will receive a default HTML page. 
+Here is a simple program that will deliver different HTML to a device depending on whether it is a iPad, iPhone, or Android device. If the device is none of these, it will receive a default HTML page. 
 
 **user-agent-demo.php**
 ```php
@@ -98,7 +98,10 @@ Here is a simple program that will deliver different HTML to a device depending 
 </html>
 ```
 
-## V. Reference
+## V. Altering the User-Agent string
+- To test the above script, you can try it out with multiple devices, or you can just tell the browser to send a different user-agent string. Recall that the user-agent string is communicated to the server through an HTTP request header, and there is no way for the server to authenticate what kind of device is requesting a resource. Here is a Chrome extension that allows you to easily do this: [User-Agent Switcher for Google Chrome](https://chrome.google.com/webstore/detail/user-agent-switcher-for-g/ffhkkpnppgnfaobgihpdblnhmmbodake)
+
+## VI. Reference
 - https://en.wikipedia.org/wiki/User_agent
 - https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol
 - https://en.wikipedia.org/wiki/List_of_HTTP_header_fields
