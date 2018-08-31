@@ -44,10 +44,9 @@
 	<title></title>
 </head>
 <body>
-<?php echo $html; ?>
   <?php 
     $useragent = $_SERVER['HTTP_USER_AGENT'];
-    echo "<p>Your browser's user agent string is $useragent</p>"; 
+    echo "<p>Your browser's user agent string is: $useragent</p>"; 
   ?>
 </body>
 </html>
