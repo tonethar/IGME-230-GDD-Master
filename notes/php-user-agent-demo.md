@@ -27,7 +27,8 @@
 **Amazon Kindle 3**
 `Mozilla/5.0 (Linux; U; en-US) AppleWebKit/528.5+ (KHTML, like Gecko, Safari/528.5+) Version/4.0 Kindle/3.0 (screen 600x800; rotate)`
   
-
+**Pantech Feature Phone**
+`PantechP7040/JLUS04042011; Mozilla/5.0 (Profile/MIDP-2.0 Configuration/CLDC-1.1; Opera Mini/att/4.2.16479; U; en-US) Opera 9.50`
 
 ## III. Reference
 - https://en.wikipedia.org/wiki/User_agent
