@@ -39,3 +39,4 @@ See mycourses dropboxes for due dates.
 ## V. Demos
 - [PHP File (Directory) Lister](HW-php-file-lister.md)
 - [Random Activity Demo](php-random-activity-demo.md) - downloading data from a web service with PHP
+- [Using PHP to detect the HTTP User-Agent string](php-user-agent-demo.md)
