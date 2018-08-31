@@ -101,7 +101,8 @@ Here is a simple program that will deliver different HTML to a device depending 
 Above we are sending meaningless HTML, but you could modify this script to instead send optimized HTML/CSS to the mobile phones. For example, you could send mobile phones a version of your page that lacked external style sheets and instead used embedded styles (in the &lt;head> section). The advantage of doing this is that the phones will not have to make an additional request for a CSS file over a high latency cell connection.
 
 ## V. Altering the User-Agent string
-- To test the above script, you can try it out with multiple devices, or you can just tell the browser to send a different user-agent string. Recall that the user-agent string is communicated to the server through an HTTP request header, and there is no way for the server to authenticate what kind of device is requesting a resource. Here is a Chrome extension that allows you to easily do this: [User-Agent Switcher for Google Chrome](https://chrome.google.com/webstore/detail/user-agent-switcher-for-g/ffhkkpnppgnfaobgihpdblnhmmbodake)
+- To test the above script, you can try it out with multiple devices, or you can just tell the browser to send a different user-agent string. Recall that the user-agent string is communicated to the server through an HTTP request header, and there is no way for the server to authenticate what kind of device is requesting a resource.
+- Here is a Chrome extension that allows you to easily do this: [User-Agent Switcher for Google Chrome](https://chrome.google.com/webstore/detail/user-agent-switcher-for-g/ffhkkpnppgnfaobgihpdblnhmmbodake)
 
 ## VI. Discussion
 - An alternative to browser sniffing and "forked" HTML is to instead use [CSS Media Queries](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries)
