@@ -75,6 +75,16 @@ This runs *broken.php* through the command-line PHP parser, and should also disp
 
 9. Another place to see error messages is in the PHP error log file on banjo at `abc1234/php_data/php.log`
 
+- Note: If you do not find php.log in your php_data folder, you may need to edit your php.ini file to add the path to your user account.  Find the following line:
+
+   `error_log = "##HOMEDIR##/php_data/php.log"`
+
+   and replace it with
+
+   `error_log = "/home/abc1234/php_data/php.log"`
+   *(replace abc1234 with your userid)*
+
+
 ## V. Test to see if PHP can open remote files
 10. Now we will check to see if we can open a file on another server with the following script, which you can name **open.php** and put in your `230/test/` folder.
 
