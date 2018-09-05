@@ -27,45 +27,45 @@ Let’s add some structural and semantic tags to this mess!
 6. Make the URL on the bottom of the page a hypertext link.
 7. Wrap the updated URL in a `<footer>` element. It should look like this:
 
-	<footer>
+	```<footer>
 		<a href = “http://…”>source: http://…</a>
-	</footer>
+	</footer>```
 
 Note:  replace the “…” with the rest of the URL.
-8. Right after the <h1> element, add an <img> tag that displays the image file provided.  Set the src, alt, and title attributes to the appropriate values.
+8. Right after the `<h1>` element, add an `<img>` tag that displays the image file provided.  Set the src, alt, and title attributes to the appropriate values.
 9. Add a link at the bottom of the page (after the source link) that goes to your home page (the index.html page you posted the last time).  Wrap this link in a <p> tag.
 10. Preview the page.  It should look like the image at the top of the next page.
 11. Test this page with the validator.  Do not continue until the page passes validation.
 	
 ### Part 3:  Improving the Presentation with CSS
 Now, we’ll apply CSS to improve the overall presentation of the recipe.
-1.	Now, let’s add some document-level styles into our kadayif.html page.  Inside the <head> tag of the page (below the <meta> tag) add the following style tag:
+1.	Now, let’s add some document-level styles into our kadayif.html page.  Inside the `<head>` tag of the page (below the `<meta>` tag) add the following style tag:
 
-	<style type=”text/css”>
+	```<style type=”text/css”>
 
-	</style>
+	</style>```
  
-2.	Inside of the <style> tag you just created, we will add a rule that will change the font for all of the text in the document.  Add the following style rule between the <style> tags:
+2.	Inside of the `<style>` tag you just created, we will add a rule that will change the font for all of the text in the document.  Add the following style rule between the <style> tags:
 
-	body {
+	```body {
 		font-family: “trebuchet ms”, tahoma, verdana;
-	}
+	}```
 
 Reload the page to make sure a change happened.
 3.	Now, add the following declarations to the body selector you just created:
 
-	margin-left: 10%;
+	```margin-left: 10%;
 	margin-right: 10%;
-	border: 1px solid gray;
+	border: 1px solid gray;```
 
 Test this!  You should now see a border around the text.
 4.	Did you notice that the text is too close to the border?  Let’s fix that.  Add the following to the body selector:
 
-	padding-left: 1em;
-	padding-right: 1em;
+	```padding-left: 1em;
+	padding-right: 1em;```
 
-Test it!  There should be more room now.  Notice how the margin declarations affect the outside of the body tag while the padding declarations affect the inside of the body tag.  These properties work the same way with any of the other container elements (i.e., <p>, <ol>, <em>, etc.)
-5.	For fun, see if you can change the <h1> tag’s background to a light gray.  If you don’t know how to set background colors in CSS, check in your textbook or search for it on-line.
+Test it!  There should be more room now.  Notice how the margin declarations affect the outside of the body tag while the padding declarations affect the inside of the body tag.  These properties work the same way with any of the other container elements (i.e., `<p>`, `<ol>`, `<em>`, etc.)
+5.	For fun, see if you can change the `<h1>` tag’s background to a light gray.  If you don’t know how to set background colors in CSS, check in your textbook or search for it on-line.
 6.	Now, adjust the padding properties (padding-bottom, padding-top, etc.) of your h1 rule so the text fits into its “box” a little better.
 7.	Add the declarations necessary to center the <h1> tags text using the text-align property.
 8.	Stop!  Validate your page.  Do not continue until your page validates correctly.
@@ -76,25 +76,25 @@ Test it!  There should be more room now.  Notice how the margin declarations aff
 10.	Preview your page.  It should look like the image at the top of the next page.
  
  
-Part 4:  Adding Even More Rules
+### Part 4:  Adding Even More Rules
 Now, make the following changes:
-1.	The items in your lists are tightly “scrunched” together.  In the <style> tag, add a rule for the <li> tags that will put more space between each item.  Use the following reference and look under the headings padding or margin for more ideas:
+1.	The items in your lists are tightly “scrunched” together.  In the `<style>` tag, add a rule for the `<li>` tags that will put more space between each item.  Use the following reference and look under the headings padding or margin for more ideas:
 
 	http://www.w3schools.com/css/css_reference.asp
 
 2.	Add a gray (or any color other than white) background color to the list of ingredients.  You can use the ingredients class selector to accomplish this.  Check today’s slides if you don’t remember how to do this.
-3.	What happened?  The background of the <ul class=”ingredients”> entity now stretches to fill most of the page.  Fix this by using the width property in your style rule.  Set the width to about 250 pixels.  Then, set the list-style-type property to circle.  Finally, adjust the padding so the list looks a little better.
+3.	What happened?  The background of the `<ul class=”ingredients”>` entity now stretches to fill most of the page.  Fix this by using the width property in your style rule.  Set the width to about 250 pixels.  Then, set the list-style-type property to circle.  Finally, adjust the padding so the list looks a little better.
 4.	This page would look a lot better if we put the image over on the right side of the page opposite the ingredients list.  We can do this using the float property.  We’ll discuss float in our next lecture.  For now, just add the following style rule to your page:
 
-	img { float: right; clear: both;}
+	```img { float: right; clear: both;}```
 
 5.	Now, let’s change the “Yield: 24 servings” paragraph so it uses and in-line style (as opposed to the embedded styles we have been working with).  Move the HTML for this so that it is before the img tag, not after.  Then change the tag as follows:
 
-	<p style=”float: right; font-weight: bold”>Yield: 24 servings</p>
+	```<p style=”float: right; font-weight: bold”>Yield: 24 servings</p>```
 
 6.	Add a class selector rule named: .important.  Set this rule so that text will be rendered in red, 10% larger than the default font size, and with a yellow background.
-7.	Use the <span> tag to apply this class to the text “Place on lowest oven rack.”
-8.	Now, use another <span> tag to apply the same class rule to the text “Cool” near the bottom of the instruction list.
+7.	Use the `<span>` tag to apply this class to the text “Place on lowest oven rack.”
+8.	Now, use another `<span>` tag to apply the same class rule to the text “Cool” near the bottom of the instruction list.
 9.	Validate your HTML!
 10.	Your page should now look something like the image on the next page.
  
