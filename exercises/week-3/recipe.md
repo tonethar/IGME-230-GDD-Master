@@ -1,44 +1,43 @@
-#ICE: HTML, CSS, and Validation
+# ICE: HTML, CSS, and Validation
 
-##Formatting a Recipe		
+## Formatting a Recipe		
 
-###Overview
+### Overview
 
 Today you will be given an existing HTML page that already has significant content, in this case, a recipe. Your tasks are to:
 - mark it up with the appropriate HTML tags
 - improve the presentation of the page by utilizing  a variety of CSS properties as well as type, class, and id selectors. 
 - run it through the HTML validator to ensure your markup is well-written
 
-###Part 1: Get the files
+### Part 1: Get the files
 1. Download a copy of the startup files from the content area of our myCourses conference.
 2. Rename the included HTML file to:  kadayif.html.
 3. Change the contents of the <title> tag so it includes your full name
-4. Now, go ahead and preview the file in your browser.  You should see something like this:
- 
-5.	Pretty ugly, huh?  Let’s continue to part 2
+4. Now, go ahead and preview the file in your browser.  You should see something like this:  
+[image goes here]
+5. Pretty ugly, huh?  Let’s continue to part 2
  
-Part 2:  Adding Structure and Meaning to the Content
+### Part 2:  Adding Structure and Meaning to the Content
 Let’s add some structural and semantic tags to this mess!
-1.	Add <h1> tags to the name of the dish at the top of the page.
-2.	Put the text “Yield:  24 Servings” into a <p> element.
-3.	Make the text “Ingredients” and “Directions” level 2 headers.
-4.	Put the ingredients into an unordered list.  Give this list a class attribute of “ingredients”.
-5.	Put the directions into an ordered list.
-6.	Make the URL on the bottom of the page a hypertext link.
-7.	Wrap the updated URL in a <footer> element. It should look like this:
+1. Add <h1> tags to the name of the dish at the top of the page.
+2. Put the text “Yield:  24 Servings” into a <p> element.
+3. Make the text “Ingredients” and “Directions” level 2 headers.
+4. Put the ingredients into an unordered list.  Give this list a class attribute of “ingredients”.
+5. Put the directions into an ordered list.
+6. Make the URL on the bottom of the page a hypertext link.
+7. Wrap the updated URL in a <footer> element. It should look like this:
 
 	<footer>
 		<a href = “http://…”>source: http://…</a>
 	</footer>
 
 Note:  replace the “…” with the rest of the URL.
-8.	Right after the <h1> element, add an <img> tag that displays the image file provided.  Set the src, alt, and title attributes to the appropriate values.
-9.	Add a link at the bottom of the page (after the source link) that goes to your home page (the index.html page you posted the last time).  Wrap this link in a <p> tag.
-10.	Preview the page.  It should look like the image at the top of the next page.
- 
- 
-11.	Test this page with the validator.  Do not continue until the page passes validation.
-Part 3:  Improving the Presentation with CSS
+8. Right after the <h1> element, add an <img> tag that displays the image file provided.  Set the src, alt, and title attributes to the appropriate values.
+9. Add a link at the bottom of the page (after the source link) that goes to your home page (the index.html page you posted the last time).  Wrap this link in a <p> tag.
+10. Preview the page.  It should look like the image at the top of the next page.
+11. Test this page with the validator.  Do not continue until the page passes validation.
+	
+### Part 3:  Improving the Presentation with CSS
 Now, we’ll apply CSS to improve the overall presentation of the recipe.
 1.	Now, let’s add some document-level styles into our kadayif.html page.  Inside the <head> tag of the page (below the <meta> tag) add the following style tag:
 
