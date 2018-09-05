@@ -10,15 +10,20 @@ Today you will be given an existing HTML page that already has significant conte
 - run it through the HTML validator to ensure your markup is well-written
 
 ### Part 1: Get the files
+
 1. Download a copy of the startup files from the content area of our myCourses conference.
 2. Rename the included HTML file to:  kadayif.html.
 3. Change the contents of the `<title>` tag so it includes your full name
 4. Now, go ahead and preview the file in your browser.  You should see something like this:  
+
 [image goes here]
+
 5. Pretty ugly, huh?  Let’s continue to part 2
  
 ### Part 2:  Adding Structure and Meaning to the Content
+
 Let’s add some structural and semantic tags to this mess!
+
 1. Add `<h1>` tags to the name of the dish at the top of the page.
 2. Put the text “Yield:  24 Servings” into a `<p>` element.
 3. Make the text “Ingredients” and “Directions” level 2 headers.
