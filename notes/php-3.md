@@ -149,6 +149,7 @@ Arrays in PHP are not objects like you see in many other languages, but are inst
  	echo "</pre>";
 ?>
  ```
+ Note: push, pop, shift, and unshift work the same in JavaScript and [this handy mnemonic](https://simplestepscode.com/array-push-pop-shift-unshift/) can help you keep them straight.
  
  There are many more functions that operate on arrays - you can find a full list here: 
  - http://php.net/manual/en/ref.array.php
