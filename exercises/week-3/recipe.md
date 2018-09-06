@@ -46,25 +46,30 @@ Note:  replace the "..." with the rest of the URL.
 ### Part 3:  Improving the Presentation with CSS
 Now, we’ll apply CSS to improve the overall presentation of the recipe.
 1.	Now, let’s add some document-level styles into our kadayif.html page.  Inside the `<head>` tag of the page (below the `<meta>` tag) add the following **style** tag:
-	```
+
+    ```
     <style type=”text/css”>
 
-	</style>
+    </style>
     ```
+    
 2.	Inside of the `<style>` tag you just created, we will add a rule that will change the font for all of the text in the document.  Add the following style rule between the `<style>` tags:
+
     ```
     body {
-		font-family: “trebuchet ms”, tahoma, verdana;
-	}
+        font-family: “trebuchet ms”, tahoma, verdana;
+    }
     ```
+    
 Reload the page to make sure a change happened.
 3.	Now, add the following declarations to the **body** selector you just created:
 
-	```
-    margin-left: 10%;
-	margin-right: 10%;
-	border: 1px solid gray;
     ```
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 1px solid gray;
+    ```
+    
 Test this!  You should now see a border around the text.
 4.	Did you notice that the text is too close to the border?  Let’s fix that.  Add the following to the body selector:
 	```
