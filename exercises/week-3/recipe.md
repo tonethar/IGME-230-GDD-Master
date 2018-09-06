@@ -72,12 +72,16 @@ Reload the page to make sure a change happened.
     ```
     
 Test this!  You should now see a border around the text.
+
 4. Did you notice that the text is too close to the border?  Let’s fix that.  Add the following to the body selector:
-	```
+
+    ```
     padding-left: 1em;
 	padding-right: 1em;
     ```
+    
 Test it!  There should be more room now.  Notice how the **margin** declarations affect the *outside* of the **body** tag while the **padding** declarations affect the *inside* of the body tag.  These properties work the same way with any of the other container elements (i.e., `<p>`, `<ol>`, `<em>`, etc.)
+
 5. For fun, see if you can change the `<h1>` tag’s background to a light gray.  If you don’t know how to set background colors in CSS, search for it on-line.
 6. Now, adjust the padding properties (padding-bottom, padding-top, etc.) of your **h1** rule so the text fits into its "box" a little better.
 7. Add the declarations necessary to center the `<h1>` tags text using the **text-align** property.
