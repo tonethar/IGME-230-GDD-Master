@@ -29,12 +29,15 @@ Let’s add some structural and semantic tags to this mess!
 5. Put the directions into an **ordered** list.
 6. Make the URL on the bottom of the page a hypertext link.
 7. Wrap the updated URL in a `<footer>` element. It should look like this:
+    
     ```
     <footer>
         <a href = "http://...">source: http://...</a>
     </footer>
     ```
+    
 Note:  replace the "..." with the rest of the URL.
+
 8. Right after the `<h1>` element, add an `<img>` tag that displays the image file provided.  Set the **src**, **alt**, and **title** attributes to the appropriate values.
 9. Add a link at the bottom of the page (after the source link) that goes to your home page (the index.html page you posted the last time).  Wrap this link in a `<p>` tag.
 10. Preview the page.  It should look like the image below.
