@@ -29,12 +29,10 @@ Let’s add some structural and semantic tags to this mess!
 5. Put the directions into an **ordered** list.
 6. Make the URL on the bottom of the page a hypertext link.
 7. Wrap the updated URL in a `<footer>` element. It should look like this:
-    
-    ```
-    <footer>
+
+    ```<footer>
         <a href = "http://...">source: http://...</a>
-    </footer>
-    ```
+    </footer>```
     
 Note:  replace the "..." with the rest of the URL.
 
