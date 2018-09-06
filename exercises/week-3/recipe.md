@@ -33,7 +33,8 @@ Let’s add some structural and semantic tags to this mess!
     ```
     <footer>
         <a href = "http://...">source: http://...</a>
-    </footer>```
+    </footer>
+    ```
     
 Note:  replace the "..." with the rest of the URL.
 
