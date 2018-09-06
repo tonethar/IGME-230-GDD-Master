@@ -114,9 +114,9 @@ Now, while this page probably won’t win any design awards, the "look" and acce
 2. Add **three additional** CSS properties to the page that we have not yet used.
 
 ### Part 6:  Validate Your Page
-Use the online tools to make sure that your page is well-formed and passes HTML5 validation at http://validator.w3.org 
+  Use the online tools to make sure that your page is well-formed and passes HTML5 validation at http://validator.w3.org 
 
-Also validate the CSS! The CSS validator is extremely helpful in debugging wonky CSS:
+  Also validate the CSS! The CSS validator is extremely helpful in debugging wonky CSS:
 http://jigsaw.w3.org/css-validator/
 
-*** ONCE YOU ARE DONE, UPLOAD THIS TO YOUR 230 EXERCISES FOLDER ON BANJO, AND LINK TO IT FROM YOUR MAIN PAGE. ***
+***ONCE YOU ARE DONE, UPLOAD THIS TO YOUR 230 EXERCISES FOLDER ON BANJO, AND LINK TO IT FROM YOUR MAIN PAGE.***
