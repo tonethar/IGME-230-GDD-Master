@@ -15,7 +15,7 @@ Today you will be given an existing HTML page that already has significant conte
 2. Rename the included HTML file to:  kadayif.html.
 3. Change the contents of the `<title>` tag so it includes your full name
 4. Now, go ahead and preview the file in your browser.  You should see something like this:  
-[image goes here]
+![Unformatted Text](images/recipe-1.jpg)
 5. Pretty ugly, huh?  Let’s continue to part 2
 
 ### Part 2:  Adding Structure and Meaning to the Content
@@ -40,7 +40,7 @@ Note:  replace the "..." with the rest of the URL.
 8. Right after the `<h1>` element, add an `<img>` tag that displays the image file provided.  Set the **src**, **alt**, and **title** attributes to the appropriate values.
 9. Add a link at the bottom of the page (after the source link) that goes to your home page (the index.html page you posted the last time).  Wrap this link in a `<p>` tag.
 10. Preview the page.  It should look like the image below.
-    [image goes here]
+![Structured Content](images/recipe-2.jpg)
 11. Test this page with the validator.  Do not continue until the page passes validation.
 	
 ### Part 3:  Improving the Presentation with CSS
@@ -89,7 +89,7 @@ Test it!  There should be more room now.  Notice how the **margin** declarations
 9. Now, try validating the CSS you have used in your page.  You can find the CSS validator at:
 http://jigsaw.w3.org/css-validator
 10. Preview your page.  It should look like the image below.
- 
+![Code with Presentation](images/recipe-2.jpg)
  
 ### Part 4:  Adding Even More Rules
 Now, make the following changes:
@@ -106,7 +106,7 @@ http://www.w3schools.com/css/css_reference.asp
 8. Now, use another `<span>` tag to apply the same class rule to the text "Cool" near the bottom of the instruction list.
 9. Validate your HTML!
 10. Your page should now look something like the image below.
- 
+![Better Presentation](images/recipe-4.jpg)
 Now, while this page probably won’t win any design awards, the "look" and accessibility of the content has radically improved!
 
 ### Part 5:  Put Your Stamp On It
