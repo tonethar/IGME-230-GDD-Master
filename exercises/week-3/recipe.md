@@ -8,19 +8,19 @@ In this week's exercise, we will be taking a text document, marking it up as an 
 
 On your local drive, (ideally in a previously created **230** folder), create a folder called **exercises**, and within it, create a folder called **recipe**.
 
-We have uploaded a file called [kadayif.txt](cremebrulee.txt) to Github. When you click the link to view that file on Github, you'll see that it's a plain text file into which I've copied and pasted the content from the [Wikipedia entry for "Crème brûlée"](https://en.wikipedia.org/wiki/Cr%C3%A8me_br%C3%BBl%C3%A9e). 
+We have uploaded a file called [kadayif.txt](kadayif.txt) to Github. When you click the link to view that file on Github, you'll see that it's a plain text file into which we've copied content from RecipeSource. Specifically, this [Ararat Home Kadayif recipe](http://www.recipesource.com/ethnic/africa/middle-east/armenian/ararat-home-kadayif1.html).
 
-To download that text file to your computer for editing, right-click on the button in the top right corner of the file that says "Raw," choose "Save link as...", and save the file to the week1 folder you just created.
+To download that text file to your computer for editing, right-click on the button in the top right corner of the file that says "Raw," choose "Save link as...", and save the file to the **recipe** folder you just created.
 
-You're also going to need to download the two images: [2014_0531_Crème_brûlée_Doi_Mae_Salong.jpg](2014_0531_Crème_brûlée_Doi_Mae_Salong.jpg) and [225px-Crema_Catalana_El_Glop.jpg](225px-Crema_Catalana_El_Glop.jpg). For each of those files, you will see a Download button in the top right corner. Right-click that button, choose "Save link as...", and download it to your local week1 folder. Then repeat that process with the second image. 
+You're also going to need to download the image: [kadayif.jpg](kadayif.jpg). For this file, you will see a Download button in the top right corner. Right-click that button, choose "Save link as...", and download it to your local drive. 
 
 ## III. Marking Up a Text File
 
-Open the cremebrulee.txt file in your text editor of choice (I recommend Brackets, though Visual Studio Code has some cool features we'll reference below). It currently has no HTML markup at all--you're going to turn it into a proper HTML document, and add some simple CSS rules to make it look a bit more like the original Wikipedia entry. 
+Open the kadayif.txt file in your text editor of choice (We recommend Brackets, though Visual Studio Code has some cool features we'll reference below). It currently has no HTML markup at all--you're going to turn it into a proper HTML document, and add some simple CSS rules to make it look a bit more presentable. 
 
-Use File->Save As... to save a new copy of the file called cremebrulee.html. Make sure you save it to the ICE2A folder and give it an .html extension--it's the extension that tells your editor to enable its HTML support. 
+Use File->Save As... to save a new copy of the file called recipe.html. Make sure you save it to the **recipe** folder and give it an .html extension--it's the extension that tells your editor to enable its HTML support. 
 
-There are a lot of accented and foreign characters in this document. In HTML 4, the default character encoding for files was ISO-8859-1, which doesn't properly display special characters (like smart quotes and diacritical marks). Those characters had to be escaped out (e.g. &eacute; had to be represented as `&eacute;`, &copy; had to be represented as `&copy;`, and & had to be represented as `&amp;`)--if you didn't do that, they didn't display properly in the browser. HTML 5 uses UTF-8 encoding, which allows those special characters to appear properly in your document.
+Notice that there is a foreign character in name of this recipe. The letter i in Kadayıf has no dot. In HTML 4, the default character encoding for files was ISO-8859-1, which doesn't properly display special characters (like smart quotes and diacritical marks). Those characters had to be escaped out (e.g. &imath; had to be represented as `&imath;`, &copy; had to be represented as `&copy;`, and & had to be represented as `&amp;`)--if you didn't do that, they didn't display properly in the browser. HTML 5 uses UTF-8 encoding, which allows those special characters to appear properly in your document.
 
 Because this Wikipedia article has many non-standard characters (like "smart" quotes and diacritical marks), the UTF-8 encoding is very helpful. 
 
