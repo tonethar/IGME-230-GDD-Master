@@ -2,7 +2,7 @@
 
 ## I. Overview & Goals
 
-In this week's exercise, we will be taking a text document, marking it up as an HTML document, adding CSS formatting, and uploading it to your RIT web space. 
+In this week's exercise, we will be taking a text document, marking it up as an HTML document, improving presentation by adding CSS formatting, validating the code to make sure it's well-written, and uploading it to your RIT web space. 
 
 ## II. Setting Up Your Folders and Files
 
@@ -12,7 +12,7 @@ We have uploaded a file called [kadayif.txt](kadayif.txt) to Github. When you cl
 
 To download that text file to your computer for editing, right-click on the button in the top right corner of the file that says "Raw," choose "Save link as...", and save the file to the **recipe** folder you just created.
 
-You're also going to need to download the image: [kadayif.jpg](kadayif.jpg). For this file, you will see a Download button in the top right corner. Right-click that button, choose "Save link as...", and download it to your local drive. 
+You're also going to need to download the image: [kadayif.jpg](kadayif.jpg). For this file, you will see a Download button in the top right corner. Right-click that button, choose "Save link as...", and download it to your **recipe** folder. 
 
 ## III. Marking Up a Text File
 
@@ -20,17 +20,15 @@ Open the kadayif.txt file in your text editor of choice (We recommend Brackets, 
 
 Use File->Save As... to save a new copy of the file called recipe.html. Make sure you save it to the **recipe** folder and give it an .html extension--it's the extension that tells your editor to enable its HTML support. 
 
-Notice that there is a foreign character in name of this recipe. The letter i in Kadayıf has no dot. In HTML 4, the default character encoding for files was ISO-8859-1, which doesn't properly display special characters (like smart quotes and diacritical marks). Those characters had to be escaped out (e.g. &imath; had to be represented as `&imath;`, &copy; had to be represented as `&copy;`, and & had to be represented as `&amp;`)--if you didn't do that, they didn't display properly in the browser. HTML 5 uses UTF-8 encoding, which allows those special characters to appear properly in your document.
+Notice that there is a foreign character in name of this recipe. The letter i in Kadayıf has no dot. In HTML 4, the default character encoding for files was ISO-8859-1, which doesn't properly display special characters (like smart quotes and diacritical marks). Those characters haved to be escaped out (e.g. &imath; would have to be represented as `&imath;`, &copy; would be represented as `&copy;`, and & would have to be represented as `&amp;`)--if you didn't do that, they didn't display properly in the browser. HTML 5 uses UTF-8 encoding, which allows those special characters to appear properly in your document.
 
-Because this Wikipedia article has many non-standard characters (like "smart" quotes and diacritical marks), the UTF-8 encoding is very helpful. 
-
-First, set up your document with the standard HTML5 "skeleton":
+First, set up your document within the standard HTML5 "skeleton":
 
 ```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8" />
+	<meta charset="utf-8">
 	<title></title>
 </head>
 <body>
@@ -39,93 +37,40 @@ First, set up your document with the standard HTML5 "skeleton":
 </html>
 ```
 
-Now we need to mark the text up as HTML. (Use the actual wikipedia page as a refrerence.)
+Now we need to mark the text up as HTML. 
 
-- Add an h1 heading for the page title, and h2 headings for all of the subsections.
-- Add paragraph tags to the individual paragraphs of text. 
-- Make the Contents and References sections into numbered ("ordered") lists, and the See Also, Bibliography, and External Links sections into bulleted ("unordered") lists. (Hint: Emmet can be very helpful with this, too!)
-- Add the two images where indicated in the file, with appropriate alt text. Don't worry about positioning them for now; we'll deal with that when we add the CSS. 
-- Use the `<sup>` tag to make each of the footnote references a superscript.
-- Where appropriate, add tags to make text bold (`<strong>...</strong>`) and/or italicized (`<em>...</em>`).
+- Copy the first line (beginning with Armenian and ending with Student) and paste it into your `<title>` tags. Replace *Ima Student* with your own full name.
 
-Don't worry about adding links yet; we'll be doing that next week. 
+4. Now, go ahead and preview the file in your browser.  You should see something like this:  
+![Unformatted Text](images/recipe-1.jpg)
+5. Pretty ugly, huh?  Let’s continue.
 
-When you're done, preview your document in your editor or browser. It should look something like this: ![Creme Brulee Page Without CSS](images/cremebrulee1.png)
+- Add `<h1>` heading to the name of the dish at the top of the page, and `<h2>` headings for the **Ingredients** and **Directions** subsections.
+- Put the text "Yield:  24 Servings" into a `<p>` element. 
+- Make the Ingredients section into a bulleted ("unordered") list, and Directions section into a numbered ("ordered") lists. 
+- Right after the '<h1>' element, add the image, with appropriate alt text. Don't worry about positioning it for now; we'll deal with that when we add the CSS. 
+
+Don't worry about adding links yet; we'll be doing that later. 
+
+When you're done, preview your document in your editor or browser. It should look something like this: 
+![Structured Content](images/recipe-2.jpg)
 
 ## IV. Publishing Your Files
  
-Once you're satisfied with the HTML file, you're going to upload your exercises folder (which includes your ICE3A folder and its contents) to your 230 folder on Banjo. 
+Once you're satisfied with the HTML file, you're going to upload your **exercises** folder (which includes your **recipe** folder and its contents) to your **230** folder on Banjo. 
 
-Test it by going to `http://people.rit.edu/yourid/230/exercises/ICE3A` -- you should see the .txt and .html files, and the two images. Click on the html file and make sure it displays properly. If you run into problems here, **ask for help ASAP**. 
+Test it by going to `http://people.rit.edu/yourid/230/exercises/recipe` -- you should see the .txt and .html files, and the image. Click on the html file and make sure it displays properly. 
 
-## V. Adding Basic CSS Formatting
-Now we're going to use CSS to start to make the page look a bit more like the original Wikipedia entry.
+Test this page with the validator.  Do not continue until the page passes validation.
 
-Create a new file in the ICE3A folder called cremebrulee.css. Add a link to the stylesheet in your <head> by typing `<link rel="stylesheet" type="text/css" href="cremebrulee.css" />`. 
+If you run into problems here, **ask for help ASAP**. 
 
-For today, since you've already done quite a bit of work, I'm going to give you the CSS to start with. Paste the following style rules into your cremebrulee.css file:
-
-```css
-body {
-    font-family: 'Helvetica Neue', Helvetica, Arial,sans-serif;
-    line-height: 1.4;
-    padding-left: 20px;
-}
-
-a { text-decoration: none; }
-
-h1, h2 {
-    font-family: 'Linux Libertine', Georgia, Times, 'Times New Roman', serif;
-    line-height: 1.3;
-    margin-bottom: 0.25em;
-    padding: 0;
-    border-bottom: 1px solid #a2a9b1;
-    font-weight: normal;
-    }
-
-h1 {
-    font-size: xx-large;
-}
-```
-Save the changes your HTML and CSS files, and upload them to your ICE3A directory. Your cremebrulee.html file should now look more like this: ![Creme Brulee Page With CSS](images/cremebrulee2.png)
-
-You're done!
-
-
-
-
-
-
-
-## Formatting a Recipe		
-
-### Overview
-
-Today you will be given an existing HTML page that already has significant content, in this case, a recipe. Your tasks are to:
-- mark it up with the appropriate HTML tags
-- improve the presentation of the page by utilizing  a variety of CSS properties as well as type, class, and id selectors. 
-- run it through the HTML validator to ensure your markup is well-written
-
-### Part 1: Get the files
-
-1. Download a copy of the startup files from the content area of our myCourses conference.
-2. Rename the included HTML file to:  kadayif.html.
-3. Change the contents of the `<title>` tag so it includes your full name
-4. Now, go ahead and preview the file in your browser.  You should see something like this:  
-![Unformatted Text](images/recipe-1.jpg)
-5. Pretty ugly, huh?  Let’s continue to part 2
 
 ### Part 2:  Adding Structure and Meaning to the Content
 
-Let’s add some structural and semantic tags to this mess!
-
-1. Add `<h1>` tags to the name of the dish at the top of the page.
-2. Put the text "Yield:  24 Servings" into a `<p>` element.
-3. Make the text "Ingredients" and "Directions" level 2 headers.
-4. Put the ingredients into an **unordered** list.  Give this list a **class** attribute of "ingredients".
-5. Put the directions into an **ordered** list.
-6. Make the URL on the bottom of the page a hypertext link.
-7. Wrap the updated URL in a `<footer>` element. It should look like this:
+First a bit of semantic tagging for our recipe:
+Edit your Ingredients list so that it has a **class** attribute of "ingredients".
+Make the URL at the bottom of the page into a hypertext link and wrap it in a `<footer>` element.  It should look like this:
 
     ```
     <footer>
@@ -134,23 +79,19 @@ Let’s add some structural and semantic tags to this mess!
     ```
 Note:  replace the "..." with the rest of the URL.
 
-8. Right after the `<h1>` element, add an `<img>` tag that displays the image file provided.  Set the **src**, **alt**, and **title** attributes to the appropriate values.
-9. Add a link at the bottom of the page (after the source link) that goes to your home page (the index.html page you posted the last time).  Wrap this link in a `<p>` tag.
+9. Add a link at the bottom of the page (after the source link and within the footer) that goes to your home page for this class (http://people.rit.edu/abc1234/230).  Wrap this link in a `<p>` tag.
 10. Preview the page.  It should look like the image below.
 ![Structured Content](images/recipe-2.jpg)
 11. Test this page with the validator.  Do not continue until the page passes validation.
+## V. Adding Basic CSS Formatting
+Now we're going to use CSS to start to make the page look a bit more presentable.
+Create a new file in the **recipe** folder called recipe.css. Add a link to the stylesheet in your <head> by typing `<link rel="stylesheet" type="text/css" href="recipe.css">`. 
 	
 ### Part 3:  Improving the Presentation with CSS
 Now, we’ll apply CSS to improve the overall presentation of the recipe.
-1. Now, let’s add some document-level styles into our kadayif.html page.  Inside the `<head>` tag of the page (below the `<meta>` tag) add the following **style** tag:
-
-    ```
-    <style type=”text/css”>
-
-    </style>
-    ```
+1. Now, let’s add some document-level styles into our kadayif.html page.  We will add our CSS to the recipe.css file rather than putting it in the `<head>` tag of the page.
     
-2. Inside of the `<style>` tag you just created, we will add a rule that will change the font for all of the text in the document.  Add the following style rule between the `<style>` tags:
+2. Inside of the recipe.css file you just created, we will add a rule that will change the font for all of the text in the document:
 
     ```
     body {
@@ -158,7 +99,7 @@ Now, we’ll apply CSS to improve the overall presentation of the recipe.
     }
     ```
     
-Reload the page to make sure a change happened.
+Save both the .css file and the .html file and reload the page to make sure a change happened.
 
 3. Now, add the following declarations to the **body** selector you just created:
 
