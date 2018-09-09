@@ -6,23 +6,23 @@ In this week's exercise, we will be taking a text document, marking it up as an 
 
 ## II. Setting Up Your Folders and Files
 
-On your local drive, (ideally in a previously created **230** folder), create a folder called **exercises**, and within it, create a folder called **recipe**.
+1. On your local drive, (ideally in a previously created **230** folder), create a folder called **exercises**, and within it, create a folder called **recipe**.
 
-We have uploaded a file called [kadayif.txt](kadayif.txt) to Github. When you click the link to view that file on Github, you'll see that it's a plain text file into which we've copied content from RecipeSource. Specifically, this [Ararat Home Kadayif recipe](http://www.recipesource.com/ethnic/africa/middle-east/armenian/ararat-home-kadayif1.html).
+2. We have uploaded a file called [kadayif.txt](kadayif.txt) to Github. When you click the link to view that file on Github, you'll see that it's a plain text file into which we've copied content from RecipeSource. Specifically, this [Ararat Home Kadayif recipe](http://www.recipesource.com/ethnic/africa/middle-east/armenian/ararat-home-kadayif1.html).
 
 To download that text file to your computer for editing, right-click on the button in the top right corner of the file that says "Raw," choose "Save link as...", and save the file to the **recipe** folder you just created.
 
-You're also going to need to download the image: [kadayif.jpg](kadayif.jpg). For this file, you will see a Download button in the top right corner. Right-click that button, choose "Save link as...", and download it to your **recipe** folder. 
+3. You're also going to need to download the image: [kadayif.jpg](kadayif.jpg). For this file, you will see a Download button in the top right corner. Right-click that button, choose "Save link as...", and download it to your **recipe** folder. 
 
 ## III. Marking Up a Text File
 
-Open the kadayif.txt file in your text editor of choice (ie: Brackets, Notepad++, Visual Studio Code, etc). It currently has no HTML markup at all--you're going to turn it into a proper HTML document, and add some simple CSS rules to make it look a bit more presentable. 
+1. Open the kadayif.txt file in your text editor of choice (ie: Brackets, Notepad++, Visual Studio Code, etc). It currently has no HTML markup at all--you're going to turn it into a proper HTML document, and add some simple CSS rules to make it look a bit more presentable. 
 
-Use File->Save As... to save a new copy of the file called recipe.html. Make sure you save it to the **recipe** folder and give it an .html extension--it's the extension that tells your editor to enable its HTML support. 
+2. Use File->Save As... to save a new copy of the file called recipe.html. Make sure you save it to the **recipe** folder and give it an .html extension--it's the extension that tells your editor to enable its HTML support. 
 
 Notice that there is a foreign character in name of this recipe. The letter i in Kadayıf has no dot. In HTML 4, the default character encoding for files was ISO-8859-1, which doesn't properly display special characters (like smart quotes and diacritical marks). Those characters haved to be escaped out (e.g. &imath; would have to be represented as `&imath;`, &copy; would be represented as `&copy;`, and & would have to be represented as `&amp;`)--if you didn't do that, they didn't display properly in the browser. HTML 5 uses UTF-8 encoding, which allows those special characters to appear properly in your document.
 
-First, set up your document within the standard HTML5 "skeleton":
+3. First, set up your document within the standard HTML5 "skeleton":
 
 ```html
 <!DOCTYPE html>
@@ -36,41 +36,46 @@ First, set up your document within the standard HTML5 "skeleton":
 </body>
 </html>
 ```
+Where in the above code does the page content belong?  Re-arrange your file contents to make it so.
 
-Now we need to mark the text up as HTML. 
+### Now we need to mark the text up as HTML. 
 
-- Copy the first line (beginning with Armenian and ending with Student) and paste it into your `<title>` tags. Replace *Ima Student* with your own full name.
+4. Take the first line (beginning with 'Armenian' and ending with 'Student') and move it into your `<title>` tags. Replace *Ima Student* with your own full name.
 
-4. Now, go ahead and preview the file in your browser.  You should see something like this:  
+5. Now, go ahead and preview the file in your browser.  You should see something like this:  
 ![Unformatted Text](images/recipe-1.jpg)
-5. Pretty ugly, huh?  Let’s continue.
+Pretty ugly, huh?  Let’s continue.
 
-- Add an `<h1>` heading to the name of the dish at the top of the page, and `<h2>` headings for the **Ingredients** and **Directions** subsections.
-- Put the text "Yield:  24 Servings" into a `<p>` element. 
-- Make the Ingredients section into a bulleted ("unordered") list, and Directions section into a numbered ("ordered") lists. 
-- Right after the '<h1>' element, add the image, with appropriate alt text. Don't worry about positioning it for now; we'll deal with that when we add the CSS. 
+6. Add an `<h1>` heading to the name of the dish at the top of the page, and `<h2>` headings for the **Ingredients** and **Directions** subsections.
+
+7. Put the text "Yield:  24 Servings" into a `<p>` element. 
+
+8. Make the Ingredients section into a bulleted ("unordered") list, and Directions section into a numbered ("ordered") lists. 
+
+9. Right after the '<h1>' element, add the image, with appropriate alt text. Don't worry about positioning it for now; we'll deal with that when we add the CSS. 
 
 Don't worry about adding links yet; we'll be doing that later. 
 
-When you're done, preview your document in your editor or browser. It should look something like this: 
+10. When you're done, preview your document in browser, again. It should now look something like this: 
 ![Structured Content](images/recipe-2.jpg)
 
 ## IV. Publishing Your Files
  
-Once you're satisfied with the HTML file, you're going to upload your **exercises** folder (which includes your **recipe** folder and its contents) to your **230** folder on Banjo. 
+1. Once you're satisfied with the HTML file, upload your **exercises** folder (which includes your **recipe** folder and its contents) to your **230** folder on Banjo. 
 
-Test it by going to `http://people.rit.edu/yourid/230/exercises/recipe` -- you should see the .txt and .html files, and the image. Click on the html file and make sure it displays properly. 
+2. Test it by going to `http://people.rit.edu/yourid/230/exercises/recipe` -- you should see the .txt and .html files, and the image. Click on the html file and make sure it displays properly. 
 
-Test this page with the validator.  Do not continue until the page passes validation.
+3. Test this page with the validator.  Do not continue until the page passes validation.
 
 If you run into problems here, **ask for help ASAP**. 
 
 
-### Part 2:  Adding Structure and Meaning to the Content
+## V. Adding More Structure and Meaning to the Content
 
 First a bit of semantic tagging for our recipe:
-Edit your Ingredients list so that it has a **class** attribute of "ingredients".
-Make the URL at the bottom of the page into a hypertext link and wrap it in a `<footer>` element.  It should look like this:
+
+1. Edit your Ingredients list so that it has a **class** attribute of "ingredients".
+2. Make the URL at the bottom of the page into a hypertext link and wrap it in a `<footer>` element.  It should look like this:
 
     ```
     <footer>
@@ -79,12 +84,15 @@ Make the URL at the bottom of the page into a hypertext link and wrap it in a `<
     ```
 Note:  replace the "..." with the rest of the URL.
 
-9. Add a link at the bottom of the page (after the source link and within the footer) that goes to your home page for this class (http://people.rit.edu/abc1234/230).  Wrap this link in a `<p>` tag.
-10. Preview the page.  It should look like the image below.
+3. Add an additional link at the bottom of the page (after the source link and within the footer) that goes to your home page for this class (http://people.rit.edu/abc1234/230).  Wrap each of these links in `<p>` tags.
+4. Preview the page.  It should look like the image below.
 ![Structured Content](images/recipe-2.jpg)
-11. Test this page with the validator.  Do not continue until the page passes validation.
-## V. Adding Basic CSS Formatting
-Now we're going to use CSS to start to make the page look a bit more presentable.
+5. Test this page with the validator.  Do not continue until the page passes validation.
+
+***At this point in the exercise, we're shifting from material discussed in the first half of the week to material discussed in the 2nd half of the week.  Consult the lecture notes if it's still early in the week and you want to work ahead.***
+
+## VI. Adding Basic CSS Formatting
+Now we're going to use CSS to start to make the page look a bit more presentable.  For this 
 Create a new file in the **recipe** folder called recipe.css. Add a link to the stylesheet in your <head> by typing `<link rel="stylesheet" type="text/css" href="recipe.css">`. 
 	
 ### Part 3:  Improving the Presentation with CSS
