@@ -144,7 +144,7 @@ Test it!  There should be more room now.  Notice how the **margin** declarations
 http://jigsaw.w3.org/css-validator
 
 
-### VII. Adding Even More Rules
+## VII. Adding Even More Rules
 
 Now, make the following changes:
 
@@ -178,11 +178,11 @@ Let's go back into the recipe.html to make one last change.  So you can see how 
 
 Now, while this page probably won't win any design awards, the "look" and accessibility of the content has radically improved!
 
-### VIII:  Put Your Stamp On It
+## VIII:  Put Your Stamp On It
 1. Change the background color of the footer text at the bottom of the page to any appropriate color using the **footer** selector. (Continue to modify your external style sheet for these steps)
 2. Add **three additional** CSS properties to the page that we have not yet used.  (be prepared to describe what they are in the drop box comment field).
 
-### IX:  Validate Your Page
+## IX:  Validate Your Page
 1. Use the online tools to make sure that your page is well-formed and passes HTML5 validation at http://validator.w3.org 
 
 2. Also validate the CSS! The CSS validator is extremely helpful in debugging wonky CSS:
