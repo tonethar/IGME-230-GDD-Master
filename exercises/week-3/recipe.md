@@ -106,7 +106,7 @@ Now, let’s add some styles to our Recipe page by editing the external style sh
 
     ```
     body {
-        font-family: “trebuchet ms”, tahoma, verdana;
+        font-family: "trebuchet ms", tahoma, verdana;
     }
     ```
     
