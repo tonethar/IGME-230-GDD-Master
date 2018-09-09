@@ -16,7 +16,7 @@ You're also going to need to download the image: [kadayif.jpg](kadayif.jpg). For
 
 ## III. Marking Up a Text File
 
-Open the kadayif.txt file in your text editor of choice (We recommend Brackets, though Visual Studio Code has some cool features we'll reference below). It currently has no HTML markup at all--you're going to turn it into a proper HTML document, and add some simple CSS rules to make it look a bit more presentable. 
+Open the kadayif.txt file in your text editor of choice (ie: Brackets, Notepad++, Visual Studio Code, etc). It currently has no HTML markup at all--you're going to turn it into a proper HTML document, and add some simple CSS rules to make it look a bit more presentable. 
 
 Use File->Save As... to save a new copy of the file called recipe.html. Make sure you save it to the **recipe** folder and give it an .html extension--it's the extension that tells your editor to enable its HTML support. 
 
