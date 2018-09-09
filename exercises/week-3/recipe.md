@@ -52,7 +52,7 @@ Pretty ugly, huh?  Let’s continue.
 
 8. Make the Ingredients section into a bulleted ("unordered") list, and Directions section into a numbered ("ordered") lists. 
 
-9. Right after the '<h1>' element, add the image, with appropriate alt text. Don't worry about positioning it for now; we'll deal with that when we add the CSS. 
+9. Right after the `<h1>` element, add the image, with appropriate alt text. Don't worry about positioning it for now; we'll deal with that when we add the CSS. 
 
 Don't worry about adding links yet; we'll be doing that later. 
 
@@ -68,7 +68,6 @@ Don't worry about adding links yet; we'll be doing that later.
 3. Test this page with the validator.  Do not continue until the page passes validation.
 
 If you run into problems here, **ask for help ASAP**. 
-
 
 ## V. Adding More Structure and Meaning to the Content
 
@@ -91,15 +90,19 @@ Note:  replace the "..." with the rest of the URL.
 
 ***At this point in the exercise, we're shifting from material discussed in the first half of the week to material discussed in the 2nd half of the week.  Consult the lecture notes if it's still early in the week and you want to work ahead.***
 
-## VI. Adding Basic CSS Formatting
-Now we're going to use CSS to start to make the page look a bit more presentable.  For this 
-Create a new file in the **recipe** folder called recipe.css. Add a link to the stylesheet in your <head> by typing `<link rel="stylesheet" type="text/css" href="recipe.css">`. 
+## VI. Improving the Presentation with CSS Formatting
+Now we're going to use CSS to start to make the page look a bit more presentable.  Instead of adding our CSS in the `<head>` tag of the page as an embedded style sheet, this time we will use an external style sheet:
+
+1. Create a new file in the **recipe** folder called **recipe.css**... You can leave it blank for the moment. 
+
+2. Edit the **recipe.html** file one last time for now to add a link to the external stylesheet in the <head> by adding. 
+	`<link rel="stylesheet" type="text/css" href="recipe.css">`
 	
-### Part 3:  Improving the Presentation with CSS
-Now, we’ll apply CSS to improve the overall presentation of the recipe.
-1. Now, let’s add some document-level styles into our kadayif.html page.  We will add our CSS to the recipe.css file rather than putting it in the `<head>` tag of the page.
+3. Save the HTML file... We'll try not to make any further changes to it.  This would be a good moment to make sure it validates.  Do not continue further your page validates correctly.
+	
+Now, let’s add some styles to our Recipe page by editing the external style sheet:
     
-2. Inside of the recipe.css file you just created, we will add a rule that will change the font for all of the text in the document:
+4. Inside of the **recipe.css** file you just created, we will add a rule that will change the font for all of the text in the document:
 
     ```
     body {
@@ -107,9 +110,9 @@ Now, we’ll apply CSS to improve the overall presentation of the recipe.
     }
     ```
     
-Save both the .css file and the .html file and reload the page to make sure a change happened.
+Save the .css file and reload the .html page in the browser to make sure a change happened.  If not, go back and double-check things.  Are the two files in the same folder?... If you're looking at the page on people.rit.edu, did you also upload the .css file there?...  Are you sure that the `<link>` line you added to the .html file is correct?... Try clearing your cache or visiting the URL through 'private browsing mode' if your changes don't seem to take effect.
 
-3. Now, add the following declarations to the **body** selector you just created:
+5. Now, add the following declarations to the **body** selector you just created:
 
     ```
     margin-left: 10%;
@@ -119,7 +122,7 @@ Save both the .css file and the .html file and reload the page to make sure a ch
     
 Test this!  You should now see a border around the text.
 
-4. Did you notice that the text is too close to the border?  Let’s fix that.  Add the following to the body selector:
+6. Did you notice that the text is too close to the border?  Let’s fix that.  Add the following to the body selector:
 
     ```
     padding-left: 1em;
@@ -128,44 +131,69 @@ Test this!  You should now see a border around the text.
     
 Test it!  There should be more room now.  Notice how the **margin** declarations affect the *outside* of the **body** tag while the **padding** declarations affect the *inside* of the body tag.  These properties work the same way with any of the other container elements (i.e., `<p>`, `<ol>`, `<em>`, etc.)
 
-5. For fun, see if you can change the `<h1>` tag’s background to a light gray.  If you don’t know how to set background colors in CSS, search for it on-line.
-6. Now, adjust the padding properties (padding-bottom, padding-top, etc.) of your **h1** rule so the text fits into its "box" a little better.
-7. Add the declarations necessary to center the `<h1>` tags text using the **text-align** property.
-8. ***Stop!***  Validate your page.  Do not continue until your page validates correctly.
-9. Now, try validating the CSS you have used in your page.  You can find the CSS validator at:
-http://jigsaw.w3.org/css-validator
+7. For fun, see if you can change the `<h1>` tag’s background to a light gray.  If you don’t know how to set background colors in CSS, search for it on-line.
+
+8. Now, adjust the padding properties (padding-bottom, padding-top, etc.) of your **h1** rule so the text fits into its "box" a little better.
+
+9. Add the declarations necessary to center the `<h1>` tags text using the **text-align** property.
+
 10. Preview your page.  It should look like the image below.
 ![Code with Presentation](images/recipe-2.jpg)
  
-### Part 4:  Adding Even More Rules
+11. Now, try validating the CSS you have used in your page.  You can find the CSS validator at:
+http://jigsaw.w3.org/css-validator
+
+
+### VII. Adding Even More Rules
+
 Now, make the following changes:
-1. The items in your lists are tightly "scrunched" together.  In the `<style>` tag, add a rule for the `<li>` tags that will put more space between each item.  Use the following reference and look under the headings **padding** or **margin** for more ideas:
+
+1. The items in your lists are tightly "scrunched" together.  Add a CSS rule for the `<li>` tags that will put more space between each item.  Use the following reference and look under the headings **padding** or **margin** for more ideas:
 http://www.w3schools.com/css/css_reference.asp
-2. Add a gray (or any color other than white) background color to the list of ingredients.  You can use the **ingredients** class selector to accomplish this.  Check today’s slides if you don’t remember how to do this.
-3. What happened?  The background of the `<ul class="ingredients">` entity now stretches to fill most of the page.  Fix this by using the **width** property in your style rule.  Set the width to about 250 pixels.  Then, set the **list-style-type** property to **circle**.  Finally, adjust the **padding** so the list looks a little better.
-4. This page would look a lot better if we put the image over on the right side of the page opposite the ingredients list.  We can do this using the **float** property.  We’ll discuss **float** in our next lecture.  For now, just add the following style rule to your page:
+
+2. Add a gray (or any color other than white) background color to the list of ingredients.  You can use the **ingredients** class selector to accomplish this.  Preview things.
+
+3. What happened?  The background of the `<ul class="ingredients">` entity now stretches to fill the full width of the page.  Fix this by using the **width** property in your style rule.  For now, set it to a fixed width of about 250 pixels.  
+
+4. Then, still modifying the **ingredients** class, set the **list-style-type** property to **circle**, and adjust the **padding** so the list looks a little better.
+
+5. This page would look a lot better if we put the image over on the right side of the page opposite the ingredients list.  We can do this using the **float** property.  We’ll discuss **float** in our next lecture.  For now, just add the following style rule to your page:
 	```img { float: right; clear: both;}```
-5. Now, let’s change the “Yield: 24 servings” paragraph so it uses and *in-line* style (as opposed to the *embedded* styles we have been working with).  Move the HTML for this so that it is before the **img** tag, not after.  Then change the tag as follows:
-	```<p style="float: right; font-weight: bold">Yield: 24 servings</p>```
+	
 6. Add a *class selector* rule named: **.important**.  Set this rule so that text will be rendered in *red, 10% larger* than the default font size, and with a *yellow* background.
+
 7. Use the `<span>` tag to apply this class to the text "Place on lowest oven rack."
+
 8. Now, use another `<span>` tag to apply the same class rule to the text "Cool" near the bottom of the instruction list.
-9. Validate your HTML!
-10. Your page should now look something like the image below.
+
+9. Validate your CSS!
+
+Let's go back into the recipe.html to make one last change.  So you can see how it works, we will use an *in-line* style to modify one of our paragraphs.
+
+10. First, move the paragraph saying "Yield: 24 servings" so that it appears before the `<img>` tag.  Then change the tag as follows:
+	```<p style="float: right; font-weight: bold">Yield: 24 servings</p>```
+
+11. Your page should now look something like the image below.
 ![Better Presentation](images/recipe-4.jpg)
-Now, while this page probably won’t win any design awards, the "look" and accessibility of the content has radically improved!
 
-### Part 5:  Put Your Stamp On It
-1. Change the background color of the footer text at the bottom of the page to a light gray color using the **footer** selector.
-2. Add **three additional** CSS properties to the page that we have not yet used.
+Now, while this page probably won't win any design awards, the "look" and accessibility of the content has radically improved!
 
-### Part 6:  Validate Your Page
-  Use the online tools to make sure that your page is well-formed and passes HTML5 validation at http://validator.w3.org 
+### VIII:  Put Your Stamp On It
+1. Change the background color of the footer text at the bottom of the page to any appropriate color using the **footer** selector. (Continue to modify your external style sheet for these steps)
+2. Add **three additional** CSS properties to the page that we have not yet used.  (be prepared to describe what they are in the drop box comment field).
 
-  Also validate the CSS! The CSS validator is extremely helpful in debugging wonky CSS:
+### IX:  Validate Your Page
+1. Use the online tools to make sure that your page is well-formed and passes HTML5 validation at http://validator.w3.org 
+
+2. Also validate the CSS! The CSS validator is extremely helpful in debugging wonky CSS:
 http://jigsaw.w3.org/css-validator/
 
-## VI. Submission
-See the mycourses dropbox for submission instructions.
+## X. Homework Submission
+Complete all steps above and when you're done:
+1. Zip your **recipe** folder for submission to the dropbox.
+2. Upload your finished files so that they appear on banjo at the URL mentioned in Section IV. Step 2.  Do not hide your index view, we want to be able to view your .css file easily by clicking to it (adjust your other .htaccess file or add a new one in this directory if necessary to correct).
+3. If you've already finished the other Homework, link to the remote **recipe.html** page from your 230 Homepage.
+3. Check the dropbox for other details.
+
 
 ***ONCE YOU ARE DONE, UPLOAD THIS TO YOUR 230 EXERCISES FOLDER ON BANJO, AND LINK TO IT FROM YOUR MAIN PAGE.***
