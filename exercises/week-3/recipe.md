@@ -83,7 +83,7 @@ First a bit of semantic tagging for our recipe:
     ```
 Note:  replace the "..." with the rest of the URL.
 
-3. Add an additional link at the bottom of the page (after the source link and within the footer) that goes to your home page for this class (http://people.rit.edu/abc1234/230).  Wrap each of these links in `<p>` tags.
+3. Add an additional link at the bottom of the page (after the source link and within the footer) that goes to your ([future?](../week-2/230-home-page.md)) home page for this class (http://people.rit.edu/abc1234/230).  Wrap each of these links in `<p>` tags.
 4. Preview the page.  It should look like the image below.
 ![Structured Content](images/recipe-2.jpg)
 5. Test this page with the validator.  Do not continue until the page passes validation.
@@ -192,7 +192,7 @@ http://jigsaw.w3.org/css-validator/
 Complete all steps above and when you're done:
 1. Zip your **recipe** folder for submission to the dropbox.
 2. Upload your finished files so that they appear on banjo at the URL mentioned in Section IV. Step 2.  Do not hide your index view, we want to be able to view your .css file easily by clicking to it (adjust your other .htaccess file or add a new one in this directory if necessary to correct).
-3. If you've already finished the other Homework, link to the remote **recipe.html** page from your 230 Homepage.
+3. If you've already finished [the other Homework](../week-2/230-home-page.md), link to the remote **recipe.html** page from your 230 Homepage.
 3. Check the dropbox for other details.
 
 
