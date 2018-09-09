@@ -45,7 +45,7 @@ Now we need to mark the text up as HTML.
 ![Unformatted Text](images/recipe-1.jpg)
 5. Pretty ugly, huh?  Let’s continue.
 
-- Add `<h1>` heading to the name of the dish at the top of the page, and `<h2>` headings for the **Ingredients** and **Directions** subsections.
+- Add an `<h1>` heading to the name of the dish at the top of the page, and `<h2>` headings for the **Ingredients** and **Directions** subsections.
 - Put the text "Yield:  24 Servings" into a `<p>` element. 
 - Make the Ingredients section into a bulleted ("unordered") list, and Directions section into a numbered ("ordered") lists. 
 - Right after the '<h1>' element, add the image, with appropriate alt text. Don't worry about positioning it for now; we'll deal with that when we add the CSS. 
