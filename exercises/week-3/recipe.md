@@ -195,5 +195,3 @@ Complete all steps above and when you're done:
 3. If you've already finished [the other Homework](../week-2/230-home-page.md), link to the remote **recipe.html** page from your 230 Homepage.
 3. Check the dropbox for other details.
 
-
-***ONCE YOU ARE DONE, UPLOAD THIS TO YOUR 230 EXERCISES FOLDER ON BANJO, AND LINK TO IT FROM YOUR MAIN PAGE.***
