@@ -12,7 +12,7 @@ Your page's design is up to you, but it needs to contain the following elements:
 * A **recognizable** photo of yourself (not the back of your head, not a drawing, not you wearing a mask)
 * A brief bio about yourself (a paragaph will do), telling me about your interests and your goals; what do you hope to get out of the class, your major, your time at RIT, and where do you want to be when you graduate?
 * Placeholder links to the following:
-  - Each of the 3 class projects
+  - Each of the 4 class projects
 * A link to your GitHub repo for this class
 * A pleasing (or at least tolerable) color scheme and layout, using your [CRAP](http://www.presentationzen.com/chapter6_spread.pdf) principles and other design guidelines
 * You should use an *external CSS* file for all of your styles.
