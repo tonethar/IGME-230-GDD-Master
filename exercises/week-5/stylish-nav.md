@@ -3,11 +3,11 @@
 
 We're trying to go from this:
 
-!
+![Navigation Before](images/stylish-nav-1.jpg)
 
 to this:
 
-!
+![Navigation After](images/stylish-nav-2.jpg)
 
 ***Do this by changing only the CSS, not the HTML.***
 
@@ -28,7 +28,7 @@ to this:
 
 ## Part B - Create a Tab Bar navigation system for your project 
 
-!
+![Stylish Tabs](images/stylish-nav-3.jpg)
 
 |Note|
 |:----|
