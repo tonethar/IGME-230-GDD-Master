@@ -27,5 +27,27 @@ to this:
 4. Save the files for this part; you’ll submit them at the end.
 
 ## Part B - Create a Tab Bar navigation system for your project 
+
+!
+
+|Note|
+|:----|
+|You are *not* required to use this navigation system in the final version of your project.|
+
+The following brief tutorials show you how to create a tab bar navigation system from an unordered list.  To do so, you’ll be reviewing the following tutorials online:
+- http://css.maxdesign.com.au/listamatic/horizontal01.htm
+- http://css.maxdesign.com.au/listamatic/horizontal02.htm
+- http://css.maxdesign.com.au/listamatic/horizontal03.htm
+- http://css.maxdesign.com.au/listamatic/horizontal05.htm
+
+### Instructions
+
+1. Complete the tutorials, and re-create lists 1, 2, 3 and 5 that are linked above in 4 separate web pages. Replace "Item 1", "Item 2", etc., with category names related to your project or interests.  (In other words, you will create four pages with identical content, as placeholders.  Each page will display a different variation on the "tab" metaphor.)  *Do Not* use Item 1, Item 2, etc., as shown in the example above.
+2. As in Part A, save these files for submission.
+
+|Note|
+|:----|
+|The maxdesign web site we are using in this exercise is an excellent resource.  Go to http://css.maxdesign.com.au for more information.|
+
 ## Part C - Add CSS transitions
 ## Submission
