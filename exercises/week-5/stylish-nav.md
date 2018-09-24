@@ -51,11 +51,11 @@ The following brief tutorials show you how to create a tab bar navigation system
 
 ## Part C - Add CSS transitions
 
-For this part, you’ll be working with the *last* page you made in Part B. Refer to our demo from class (the finished files will be posted for your reference, but you’ll also need to work through the problem of applying the techniques to this specific instance). In this file, do the following:
+For this part, make a copy of the *last* page you made in Part B. Refer to our demo from class (the finished files will be posted for your reference, but you’ll also need to work through the problem of applying the techniques to this specific instance). In this file, do the following:
 
-1. Add a transition to the rollovers on the menu items to have them fade from their initial color to their rollover color over .25 seconds.
-2. Add another menu item to your navigation called "More..."
-      1. This item will be a dropdown menu with at least 3 items in it, all contained in a single div. As with the previous parts of this exercise, each of these nav items should be a link, but they don’t need to actually go anywhere.
+1. Place all your nav items into a single vertical menu, rather than horizontal tabs.
+2. Add a menu heading of some sort at the top of this list.
+      1. This item will be a dropdown menu with the rest of your nav under it, all contained in a single div. As with the previous parts of this exercise, each of these nav items should be a link, but they don’t need to actually go anywhere.
       2. In your CSS, use a class to give this div the following properties:
           - A background color that matches the rest of your navigation
           - A height of 1 em
