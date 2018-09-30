@@ -2,8 +2,8 @@
 
 1. Fire up your preferred FTP client (FileZilla is free and cross platform)
 1. Enter the following information:
-    - **Host/Server:** banjo.rit.edu
-    - **Username:** your abc1234 id
+    - **Host/Server:** *banjo.rit.edu*
+    - **Username:** your *abc1234* id
     - **Password:** your RIT password
     - **Port:** SFTP (or 22)
 1. Click the *Connect* button or similar to connect to banjo
