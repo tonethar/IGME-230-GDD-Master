@@ -67,4 +67,4 @@ For this part, make a copy of the *last* page you made in Part B. Refer to our d
 
 
 ## Submission
-Zip all the files from this exercise, clearly named and organized, and post to the myCourses dropbox by the due date.
+Zip all the files from this exercise, clearly named and organized, into a single zip file and post it to the myCourses dropbox by the due date.
