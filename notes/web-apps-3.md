@@ -52,7 +52,7 @@ If you want to modify an HTML element, you first need to:
     - https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement
 
 
-Go ahead and try running the code sample below - it is attempting to change the text of the &lt;h1> on the page to "My *UFO* Page":
+Try running the code sample below - it is attempting to change the text of the &lt;h1> on the page to "My *UFO* Page":
 
 ### dom-1.HTML
 
@@ -92,7 +92,7 @@ Go ahead and try running the code sample below - it is attempting to change the 
 When you load this into Chrome, the &lt;h1> text doesn't change. Huh?
 
 ### A. Check the JavaScript console
-Go ahead and right-click to bring up the Web Inspector to get an idea why.
+Right-click to bring up the Web Inspector to get an idea why.
 
 ![The JavaScript Console](_images/dom-2.jpg)
 
