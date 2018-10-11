@@ -192,7 +192,7 @@ console.log(greetings2); // ["Greetings and felicitations, kind Gary.", "Greetin
 - as we loop through the array, we call the passed in function repeatedly
 - in #2A & #2B above we call `createGreetings()` with 2 different functions passed in
 
-**Passing functions references around in this manner might seem strange, but it is commonly done in JavaScript programming.**
+**Passing function references around in this manner might seem strange, but it is commonly done in JavaScript programming.**
 
 ## IV. <a id="section4"></a>Default function parameters
 In JavaScript, parameters of functions default to `undefined`. However, in some situations 
