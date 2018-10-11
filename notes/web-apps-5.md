@@ -389,7 +389,7 @@ let c = addSquares(4, 5); // returns 41
 - The inner function (`square`) can be accessed only from statements in the outer (`addSquares`) function.
 - This inner function (`square`) forms a *closure*: the inner function can use the arguments and variables of the outer function, while the outer function **cannot** use the arguments and variables of the inner function.
 
-Closures are an important topic in JavaScript - you can learn more about them: 
+Closures are an important topic in JavaScript - you can learn more about them here: 
 
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions#Nested_functions_and_closures
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures
