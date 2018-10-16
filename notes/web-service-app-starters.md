@@ -10,7 +10,7 @@ I. [GIPHY API](#giphy)
 
 II. [Dog API](#random-dog)
 
-III. [Anime Schedule Finder](anime-schedule-finder)
+III. [Anime Schedule Finder API](anime-schedule-finder)
 
 <hr><hr>
 
@@ -124,6 +124,9 @@ III. [Anime Schedule Finder](anime-schedule-finder)
 </html>
 ```
 
+**Screenshot:**
+![screenshot](_images/web-service-starter-giphy.jpg)
+
 <hr>
 
 <a id="random-dog"></a>
@@ -224,13 +227,16 @@ III. [Anime Schedule Finder](anime-schedule-finder)
 </html>
 ```
 
+**Screenshot:**
+![screenshot](_images/web-service-starter-dogs.jpg)
+
 <hr>
 
 
 
 
 <a id="anime-schedule-finder"></a>
-## III. Anime Schedule Finder
+## III. Anime Schedule Finder API
 - The Jikan Unofficial MyAnimeList API docs can be found here: https://jikan.docs.apiary.io/#introduction/announcement-2nd-sept,-2019
 - This API does not currently require an API key
 
@@ -345,6 +351,9 @@ III. [Anime Schedule Finder](anime-schedule-finder)
 </body>
 </html>
 ```
+
+**Screenshot:**
+![screenshot](_images/web-service-starter-anime-schedule.jpg)
 
 <hr>
 
