@@ -8,11 +8,11 @@
 <!--- Local Navigation --->
 I. [GIPHY API](#giphy)
 
-II. [Dog API](#dog)
+II. [Dog API](#random-dog)
 
 
-
-## I. GIPHY API <a id="giphy"></a>
+<a id="giphy"></a>
+## I. GIPHY API
 
 - The GIPHY API docs can be found here: https://developers.giphy.com/docs/
 
@@ -123,7 +123,8 @@ II. [Dog API](#dog)
 
 <hr>
 
-## II. Dog API <a id="dog"></a>
+<a id="random-dog"></a>
+## II. Dog API
 
 - The Dog API docs can be found here: https://dog.ceo/dog-api/documentation/
 - This API does not currently require an API key
