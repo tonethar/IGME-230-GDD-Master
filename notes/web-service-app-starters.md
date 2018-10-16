@@ -125,6 +125,7 @@ III. [Anime Schedule Finder API](anime-schedule-finder)
 ```
 
 **Screenshot:**
+
 ![screenshot](_images/web-service-starter-giphy.jpg)
 
 <hr>
@@ -228,6 +229,7 @@ III. [Anime Schedule Finder API](anime-schedule-finder)
 ```
 
 **Screenshot:**
+
 ![screenshot](_images/web-service-starter-dogs.jpg)
 
 <hr>
@@ -353,6 +355,7 @@ III. [Anime Schedule Finder API](anime-schedule-finder)
 ```
 
 **Screenshot:**
+
 ![screenshot](_images/web-service-starter-anime-schedule.jpg)
 
 <hr>
