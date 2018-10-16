@@ -10,7 +10,7 @@ I. [GIPHY API](#giphy)
 
 II. [Dog API](#random-dog)
 
-III. [Anime Schedule Finder API](anime-schedule-finder)
+III. [Anime Schedule Finder API](#anime-schedule-finder)
 
 <hr><hr>
 
