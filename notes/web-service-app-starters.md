@@ -239,7 +239,7 @@ III. [Anime Schedule Finder API](#anime-schedule-finder)
 
 <a id="anime-schedule-finder"></a>
 ## III. Anime Schedule Finder API
-- The Jikan Unofficial MyAnimeList API docs can be found here: https://jikan.docs.apiary.io/#introduction/announcement-2nd-sept,-2019
+- The Jikan Unofficial MyAnimeList API docs can be found here: https://jikan.docs.apiary.io/
 - This API does not currently require an API key
 - This API has a lot of endpoints!
 - PS: making the user type in the day of the week is horrible, awful usability. If you end up using this endpoint, be sure to have the days of the week pre-populated in a pulldown!
