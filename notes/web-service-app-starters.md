@@ -126,6 +126,11 @@ II. [Dog API](#dog)
 ## II. Dog API <a id="dog"></a>
 
 - The Dog API docs can be found here: https://dog.ceo/dog-api/documentation/
+- This API does not currently require an API key
+- This API has multiple endpoints. The one we are using here just returns a single picture of a random dog. 
+- If you are going to use this API with a project, you will need to use a diffent endpoint because this one doesn't do very much
+- Suggestions:
+  - You can use the "By Breed" endpoint which returns an array of images. You will use this in conjunction with a pulldown that has a list of all of the available breeds.
 
 ```html
 <!DOCTYPE html>
