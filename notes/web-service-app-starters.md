@@ -93,7 +93,7 @@ II. [Dog API](#dog)
 			let smallURL = result.images.fixed_width_small.url;
 			if (!smallURL) smallURL = "images/no-image-found.png";
 			var line = `<div class='result'><img src='${smallURL}' title= '${result.id}' />`;
-      line += `<span><a target='_blank' href='${url}'>View on Giphy</a></span></div>`;
+      			line += `<span><a target='_blank' href='${url}'>View on Giphy</a></span></div>`;
 			bigString += line;
 		}
 		
