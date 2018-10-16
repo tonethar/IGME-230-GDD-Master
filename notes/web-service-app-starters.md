@@ -8,7 +8,7 @@
 <!--- Local Navigation --->
 I. [GIPHY API](#giphy)
 
-II. [??? API](#giphy)
+II. Dog API](#dog)
 
 
 
@@ -123,9 +123,9 @@ II. [??? API](#giphy)
 
 <hr>
 
-## II. ??? API <a id=""></a>
+## II. Dog API <a id="dog"></a>
 
-- The ??? API docs can be found here: 
+- The Dog API docs can be found here: https://dog.ceo/dog-api/documentation/
 
 ```html
 
