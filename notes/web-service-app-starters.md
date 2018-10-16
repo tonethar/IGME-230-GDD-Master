@@ -39,15 +39,14 @@ II. [Dog API](#dog)
 		// 1 - main entry point to web service
 		const SERVICE_URL = "https://api.giphy.com/v1/gifs/search?";
 		
-		// 2
 		// Public API key from here: https://developers.giphy.com/docs/
     const API_KEY = "dc6zaTOxFJmzC";  // if this doesn't work, get your own key, it's free!
 		
-		// build up our URL string
+		// 2 - build up our URL string
 		let url = SERVICE_URL;
 		url += "api_key=" + API_KEY;
 		
-		// parse the user entered term we wish to search
+		// 3 - parse the user entered term we wish to search
 		let term = document.querySelector("#searchterm").value;
 		
 		// get rid of any leading and trailing spaces
@@ -62,10 +61,10 @@ II. [Dog API](#dog)
 		}
 		url += "&q=" + term;
 		
-		// update the UI
+		// 4 - update the UI
 		document.querySelector("#debug").innerHTML = `<b>Querying web service with:</b> <a href="${url}" target="_blank">${url}</a>`;
 		
-		// call the web service, and prepare to download the file
+		// 5 - call the web service, and prepare to download the file
 		$.ajax({
 		  dataType: "json",
 		  url: url,
@@ -78,13 +77,13 @@ II. [Dog API](#dog)
 	
 	
 	function jsonLoaded(obj){
-		// 1 - if there are no results, print a message and return
+		// 6 - if there are no results, print a message and return
 		if(!obj.data || obj.data.length == 0){
 			document.querySelector("#content").innerHTML = "<p><i>No results found!</p>";
 			return; // Bail out
 		}
 		
-		// 2 - if there is an array of results, loop through them
+		// 7 - if there is an array of results, loop through them
 		let results = obj.data
 		let bigString = `<p><i>Here are <b>${results.length}</b> results!</p>`; // ES6 String Templating
 		
@@ -98,6 +97,7 @@ II. [Dog API](#dog)
 			bigString += line;
 		}
 		
+		// 8 - display final results to user
 		document.querySelector("#content").innerHTML = bigString;
 	}	
 	
