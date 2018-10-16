@@ -18,6 +18,7 @@ III. [Anime Schedule Finder API](#anime-schedule-finder)
 ## I. GIPHY API
 
 - The GIPHY API docs can be found here: https://developers.giphy.com/docs/
+- we have a more complete example here: [HW-gif-finder.md](./HW-gif-finder.md)
 
 ```html
 <!DOCTYPE html>
