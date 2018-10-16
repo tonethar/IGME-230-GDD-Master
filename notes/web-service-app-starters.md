@@ -8,7 +8,7 @@
 <!--- Local Navigation --->
 I. [GIPHY API](#giphy)
 
-II. Dog API](#dog)
+II. [Dog API](#dog)
 
 
 
