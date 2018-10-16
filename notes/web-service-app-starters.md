@@ -241,6 +241,7 @@ III. [Anime Schedule Finder API](#anime-schedule-finder)
 ## III. Anime Schedule Finder API
 - The Jikan Unofficial MyAnimeList API docs can be found here: https://jikan.docs.apiary.io/#introduction/announcement-2nd-sept,-2019
 - This API does not currently require an API key
+- This API has a lot of endpoints!
 
 ```html
 <!DOCTYPE html>
