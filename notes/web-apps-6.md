@@ -73,7 +73,7 @@ Browser "on-event" handlers have been around since the early days of the Interne
 </html>
 ```
 
-Go ahead and try this code out - clicking the paragraph should cause its text to change.
+Try this code out - clicking the paragraph should cause its text to change.
 
 ### A. Explanation
 1. In #1 above, we give the `onclick` event handler a *function expression* as its value. This function will be called once a click event has been triggered by the paragraph. 
@@ -92,7 +92,7 @@ Go ahead and try this code out - clicking the paragraph should cause its text to
 
 ## II. <a id="section2"></a>Event Handlers and function references
 Below our code will point at a declared (and named) function - this code will be triggered when the paragraph is clicked on.
-Go ahead and try this code out - clicking the paragraph will cause its text to change as it did in the previous section, clicking
+Try this code out - clicking the paragraph will cause its text to change as it did in the previous section, clicking
 the div will similarly trigger the `divClicked()` function.
 
 ### events-2.html
@@ -157,7 +157,7 @@ One common mistake that is easy to make, is to write this line:
 ![Web Page](_images/events-4.jpg)
 
 - What happened is that when we added the `()` to the end of `onclick = divClicked()`, the function was called immediately, and the *return value* of the function (`undefined`) was stored in the `onclick` property instead of the function *reference* it was expecting.
-- Go ahead and change the code back so that it works again.
+- Change the code back so that it works again.
 
 ## IV. <a id="section4"></a>Events and Arrow Functions
 We can use arrow functions as event handlers too. You might recall that in the [Functions chapter](./web-apps-5.md) we mentioned that arrow functions have two advantages: 
@@ -169,7 +169,7 @@ What this means:
 - when an event handler points at a *regular function*, the value of `this` is the object that received the event.
 - but when an event handler points at an *arrow function*, the value of `this` will instead be "the value of the enclosing execution context", which below will be the `window` object - so we will be able to call top level functions in the script.
 
-Go ahead and run **events-3.html** and see what happens.
+Run **events-3.html** and see what happens.
 
 
 ### events-3.html
