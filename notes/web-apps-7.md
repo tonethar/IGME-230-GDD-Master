@@ -144,12 +144,12 @@ Add the following to **objects-1.html**:
 
 ```javascript
 // 5 - iterate over keys of object with for...in
-for (key in car1){
+for (let key in car1){
   console.log(`key=${key}`); // make,model,cylinders
 }
 
 // 6 - here we are using the keys to get the values
-for (key in car1){
+for (let key in car1){
   console.log(car1[key]); // Ford,Pinto,4
 }
 
