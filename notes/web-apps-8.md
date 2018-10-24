@@ -97,13 +97,13 @@ first = colors.shift(); // remove "red" from beginning
 ```javascript
 colors.unshift("red"); // add "red" back to the front
 ```
+Here's a handy way to remember these various array operations: https://simplestepscode.com/array-push-pop-shift-unshift/
 
 ### G. Find the index of an item in the Array
 
 ```javascript
 let pos = colors.indexOf("green");
 ```
-Here's a handy way to remember these various array operations: https://simplestepscode.com/array-push-pop-shift-unshift/
 
 ### H. Remove 1 or more items by index position
 
