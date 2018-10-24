@@ -3,7 +3,7 @@
 ## I. Overview
 Reading and writing data to and from the Internet, whether to/from your own server, or by working with a cloud service like Firebase, is a BIG topic.
 
-In this course, we are just going to scratch the surface and work with the "read only" web, in this case, by utilizing a web service to search for and display animated GIFs.
+In this course, we are just going to scratch the surface and work with the "read only" Web, in this case, by utilizing a web service to search for and display animated GIFs.
 
 ## II. What is a Web Service?
 
