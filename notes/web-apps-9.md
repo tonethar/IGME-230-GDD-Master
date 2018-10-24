@@ -30,7 +30,7 @@ There are some WebStorage examples on the Internet that we can point you to:
 
 ## II. <a id="section2">An Example
 
-- Go ahead and try out this example, whenever you `onchange` the values of the textbox or the &lt;select>, their values are written to `localStorage`. 
+- Try out this example, whenever you `onchange` the values of the textbox or the &lt;select>, their values are written to `localStorage`. 
 - If you close the window and reopen it, your changes will be preserved.  
 - After you have referred to the links above, it should be pretty easy to figure out what's going on in the code.
 - One thing worth mentioning is the `prefix` variable (see below):
