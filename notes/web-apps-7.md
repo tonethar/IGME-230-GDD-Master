@@ -9,7 +9,7 @@ If you want to create an object in most computer languages, you first (#1) need 
 
 In most languages it is impossible to add new properties and methods to an existing class or object - to do so you will have to create a new class, and then sub-class the old class, and then create a new instance.
 
-Creating objects in JavaScript can be much easier, you can skip step #1 (creating a template), and move directly to step #2 (creating an instance). You can also easily add properties and methods to existing objects.
+**Creating objects in JavaScript can be much easier, you can skip step #1 (creating a template), and move directly to step #2 (creating an instance). You can also easily add properties and methods to existing objects.**
 
 ## Contents
 <!--- Local Navigation --->
