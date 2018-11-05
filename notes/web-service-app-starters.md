@@ -371,7 +371,7 @@ IV. [Amiibo API](#amiibo)
 
 <a id="amiibo"></a>
 
-## I. Amiibo API
+## IV. Amiibo API
 
 ```html
 <!DOCTYPE html>
