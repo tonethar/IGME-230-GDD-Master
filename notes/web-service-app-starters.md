@@ -89,7 +89,7 @@ III. [Anime Schedule Finder API](#anime-schedule-finder)
 		
 		// 7 - if there is an array of results, loop through them
 		let results = obj.data
-		let bigString = `<p><i>Here are <b>${results.length}</b> results!</p>`; // ES6 String Templating
+	let bigString = `<p><i>Here are <b>${results.length}</b> results!</i></p>`; // ES6 String Templating
 		
 		for (let i=0;i<results.length;i++){
 			let result = results[i];
@@ -193,13 +193,13 @@ III. [Anime Schedule Finder API](#anime-schedule-finder)
 		// Here, we don't get an array back, but instead a single object literal with 2 properties
 		
 		if(obj.status != "success"){
-			document.querySelector("#content").innerHTML = "<p><i>There was a problem!</p>";
+			document.querySelector("#content").innerHTML = "<p><i>There was a problem!</i></p>";
 			return; // Bail out
 		}
 		
 		// 7 - if there is an array of results, loop through them
 		let results = obj.data
-		let bigString = "<p><i>Here is the result!</p>";
+		let bigString = "<p><i>Here is the result!</i></p>";
 		let src = obj.message;
 		
 		bigString += `<img src="${src}" alt="random dog" />`
@@ -312,7 +312,7 @@ III. [Anime Schedule Finder API](#anime-schedule-finder)
 		// 6 - if there are no results, print a message and return
 		if(obj.error){
 			let msg = obj.error;
-			document.querySelector("#content").innerHTML = `<p><i>Problem! <b>${msg}</b></p>`;
+			document.querySelector("#content").innerHTML = `<p><i>Problem! <b>${msg}</b></i></p>`;
 			return; // Bail out
 		}
 		
@@ -320,7 +320,7 @@ III. [Anime Schedule Finder API](#anime-schedule-finder)
 		// this is a weird API, the name of the key is the day of the week you asked for
 		let results = obj[term];
 		if(!results){
-			document.querySelector("#content").innerHTML = `<p><i>Problem! <b>No results for "${term}"</b></p>`;
+			document.querySelector("#content").innerHTML = `<p><i>Problem! <b>No results for "${term}"</b></i></p>`;
 			return;
 		}
 		
