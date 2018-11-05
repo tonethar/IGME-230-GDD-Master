@@ -373,6 +373,9 @@ IV. [Amiibo API](#amiibo)
 
 ## IV. Amiibo API
 
+- The Amiibo API can be found here: http://www.amiiboapi.com
+- This API does not currently require an API key
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
