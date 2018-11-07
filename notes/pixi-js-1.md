@@ -103,7 +103,7 @@ document.body.appendChild(app.view);
 - *Can you re-position the &lt;canvas> tag?* Sure, just use CSS style rules.
 - *Can you change the background color to something other than black?* Sure! With this line of code:
 
-`app.renderer.backgroundColor = 0xFF00FF; // Magneta!`
+`app.renderer.backgroundColor = 0xFF00FF; // Magenta!`
 
 
 ## III. <a id="section3">Drawing Shapes
