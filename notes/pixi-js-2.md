@@ -331,7 +331,7 @@ app.ticker.add(()=>
 **Now your circles should be moving and bouncing off of the walls!**
 
 #### Notes:
-- [`app.ticker`](http://pixijs.download/dev/docs/PIXI.ticker.Ticker.html) is a wrapper for [`window.requestAnimationFrame`](https://developer.mozilla.org/en-US/docs/Web/API/window/requestAnimationFrame) which you have already seen in the [Life HW](./HW-life.md) - it is usually called at 60 FPS.
+- [`app.ticker`](http://pixijs.download/dev/docs/PIXI.ticker.Ticker.html) is a wrapper for [`window.requestAnimationFrame`](https://developer.mozilla.org/en-US/docs/Web/API/window/requestAnimationFrame) which you may have already seen in the optional [Life HW](./HW-life.md) - it is usually called at 60 FPS.
 
 ### VI. <a id="section6">Nota Bene
 - The class hierarchy for **PIXI.Graphics** is [PIXI.Graphics](http://pixijs.download/dev/docs/PIXI.Graphics.html) > [PIXI.Container](http://pixijs.download/dev/docs/PIXI.Container.html) > [PIXI.DisplayObject](http://pixijs.download/dev/docs/PIXI.DisplayObject.html) >[PIXI.EventEmitter](https://github.com/primus/eventemitter3)
