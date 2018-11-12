@@ -147,7 +147,7 @@ function setup() {
 }
 ```
 
-- We also went ahead and created a new PIXI application, and then appended the `view` (a &lt;canvas> tag) to the document.
+- We also created a new PIXI application, and then appended the `view` (a &lt;canvas> tag) to the document.
 - We have set up all of our "script scope" variables that we will need for the completed game.
 - Note that we are starting the game - by calling `setUp()` - AFTER we have pre-loaded all of our image assets.
 
@@ -210,7 +210,7 @@ If you try to preview the results you will get an error because we didn't write 
 ![Screenshot](_images/circle-blast-13.jpg)
 
 ### Coding the "Game Over" scene
-- **Let's go ahead and write the code for the "game over" scene - add this to the end of `createLabelsAndButtons()`. Here's all the code you need - for your copy & paste pleasure:**
+- **Let's write the code for the "game over" scene - add this to the end of `createLabelsAndButtons()`. Here's all the code you need - for your copy & paste pleasure:**
 
 ```javascript
 // 3 - set up `gameOverScene`
