@@ -178,7 +178,7 @@ If you try to preview the results you will get an error because we didn't write 
 ![Screenshot](_images/circle-blast-9.jpg)
 
 - There is a lot of interface creation code here - but hopefully it is fairly clear what's going on. 
-- In the game you will create for project 3, you will probably want to create most of this kind of text in an image editing/creation program like Photoshop, and then load in the images you created. It will look better and require less code than the approach we used here. 
+- In the game you might create for project 4, you will probably want to create most of this kind of text in an image editing/creation program like Photoshop, and then load in the images you created. It will look better and require less code than the approach we used here. 
 - **Open the game up in the web browser and it should look like this:**
 
 ![Screenshot](_images/circle-blast-1.jpg)
