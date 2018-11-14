@@ -264,7 +264,7 @@ gameScene.addChild(ship);
 ```
 
 - **Reload the page, you should now see the ship in the upper-left corner of the screen - which is (0,0).**
-- Only half of the ship is visible because we adjusted the `.anchor` so it would be drawn from its center rather than the upper-left corner, which is the default.
+- Only a quarter of the ship is visible because we adjusted the `.anchor` so it would be drawn from its center rather than the upper-left corner, which is the default.
 
 ## IX. <a id="section9">Pre-loading the audio files
 In this game we are using the [Howler](https://github.com/goldfire/howler.js/) audio library, which uses the high-performance Web Audio API to play audio files.
