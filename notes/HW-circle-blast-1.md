@@ -245,7 +245,7 @@ gameOverScene.addChild(playAgainButton);
 - You are all done with `createLabelsAndButtons()` - that's a good thing!
 
 ## VIII. <a id="section8">Getting the ship on the screen
-Now we need to create a spaceship that the player can control. We will first create and ES6 class to encapsulate all of the ship state and behavior.
+Now we need to create a spaceship that the player can control. We will first create an ES6 class to encapsulate all of the ship state and behavior.
 
 ### Creating the Ship class
 
