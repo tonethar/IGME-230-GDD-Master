@@ -57,9 +57,10 @@
 ## II. PHP Script
 
 - Below we have modified the PHP from the other exercise to work with the above form
-- Two things are different from the previos version of thsi code:
+- Two things are different from the previous version of this code:
   - we are not going to echo out a confirmation that the mail was successfully sent, instead after sending the mail ...
   - the code will re-direct back to the page the form is on with this line of PHP code: `header("Location: form.html");`
+- note that if this script echos out anything at all, then the redirect back to the form will fail
 
 **form-handler.php**
 
