@@ -40,3 +40,4 @@ See mycourses dropboxes for due dates.
 - [PHP File (Directory) Lister](HW-php-file-lister.md)
 - [Random Activity Demo](php-random-activity-demo.md) - downloading data from a web service with PHP
 - [Using PHP to detect the HTTP User-Agent string](php-user-agent-demo.md)
+- [PHP Mail Form with external PHP](https://github.com/tonethar/IGME-230-Master/blob/master/other-files/php-form-handler.zip)
