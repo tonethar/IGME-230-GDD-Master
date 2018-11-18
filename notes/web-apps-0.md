@@ -99,12 +99,13 @@ These demos could be nice starting points for a project:
 This course's content is primarily focused on giving students an introduction to web publishing, and an introduction to scripting a web browser for both applications and games. Later courses will go deeper and cover more topics, and there is very much more that that to learn about web applications on your own. Here are some major topics that we are NOT covering:
 
 - **Advanced JavaScript Concepts** will continue to be covered in downstream courses.
-- **Canvas API** is covered in IGME-330.
+- **Canvas API** is covered in [IGME-330](https://github.com/tonethar/IGME-330-Master).
 - **Cloud Computing** is the practice of using a network of **remote servers** hosted on the Internet to store, manage, and process data. 
 While we are going to utilize Internet resources in the form of web services, in this course our application code will be 100% on the client machine (the web browser). 
 In later courses (IGME-330 & IGME-430) you will get the opportunity to read/write data to "the cloud", and even have application logic running on remote servers.
 - **Database/Data Modeling** - creating a key:value server utilizing Node.js is covered in IGME-430 (an elective), *Data Modeling* and the SQL language are covered in ISTE-230 (an elective)
-- **Package Managers** - such NPM & Bower and other build tools such as Gulp & Grunt are covered in later courses.
+- **Package Managers** - such npm & Bower and other build tools such as Gulp & Grunt are covered in later courses.
+- **Server-side programming** - is covered primarily in IGME-430, but we did already give you a little bit of PHP --> [Intro to PHP](./php-0.md)
 - **Web MVC or MVVM Frameworks** - these involve *data binding* and *components* examples include Vue, React and Angular, which are covered in later courses.
 - **Web Games** will be covered later in this course, and we will build several games or interactive experiences using the PixiJS rendering engine. Our class PixiJS materials can be found here: [pixi-js-0.md](./pixi-js-0.md)
 - **WebGL** is an implementation of OpenGL ES 2.0 that runs natively in web browsers, and is the fastest way to draw to the browser screen. WebGL shaders may be briefly looked at while we are covering PixiJS.
