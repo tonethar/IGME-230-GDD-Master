@@ -3,7 +3,7 @@
 This series of tutorials/lecture notes will get you started in creating web applications, which are *client-server* applications in which the client code runs in a web browser. 
 
 ## II. Prerequisite knowledge <a id="section2"></a>
-- The HTML/CSS which we covered in this class
+- The HTML/CSS which we have covered in this course and in IGME-110
 - CSS selectors (in particular the [CSS3 selectors](https://www.w3.org/TR/css3-selectors/#selectors)) will come in handy
 - Fundamental programming concepts that you gleaned from the (at least) 2 programming classes you have taken prior to this course.
 
