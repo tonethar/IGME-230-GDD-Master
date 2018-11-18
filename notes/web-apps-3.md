@@ -449,7 +449,7 @@ Make a copy of **dom-4.html** and name it **web-apps-3-HW.html**. Delete all of 
 
 ![Web Page](_images/dom-9.jpg)
 
-<hr>
+<hr><hr>
     
 | <-- Previous Unit | Home | Next Unit -->
 | --- | --- | --- 
