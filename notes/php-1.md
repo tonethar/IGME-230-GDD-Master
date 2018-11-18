@@ -247,3 +247,7 @@ Here are some links you might find helpful:
 **[Table of Contents <- About this PHP Tutorial Series](php-0.md)**
 
 **[Next Chapter -> PHP Scalars & Data Types (chapter 2)](php-2.md)**
+
+| <-- Previous Unit | Home | Next Unit -->
+| --- | --- | --- 
+|   :-\  |  **[Table of Contents <- About this PHP Tutorial Series](php-0.md)** | **[PHP Scalars & Data Types (chapter 2)](php-2.md)**
