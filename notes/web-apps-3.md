@@ -451,7 +451,10 @@ Make a copy of **dom-4.html** and name it **web-apps-3-HW.html**. Delete all of 
 
 <hr>
     
-**[Previous Chapter <- Introduction to JavaScript (chapter 2)](web-apps-2.md)**
+
   
-**[Next Chapter -> More Web Browser DOM Methods (chapter 4)](web-apps-4.md)**
+
   
+| <-- Previous Unit | Home | Next Unit -->
+| --- | --- | --- 
+|   **[Previous Chapter <- Intro to JavaScript (chapter 2)](web-apps-2.md)**  |  **[About this Web App Tutorial Series](web-apps-0.md)** | **[Next Chapter -> More Web Browser DOM Methods (chapter 4)](web-apps-4.md)**
