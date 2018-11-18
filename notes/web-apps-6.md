@@ -539,8 +539,8 @@ Checkboxes allow the user to make multiple selections. Yours should work like th
 
 - You should also check out [Chibi Card Matching](HW-chibi-matching.md) game demo.
 
-<hr>
+<hr><hr>
 
-**[Previous Chapter <- JavaScript Functions (chapter 5)](web-apps-5.md)**
-
-**[Next Chapter -> JavaScript Object Literals (chapter 7)](web-apps-7.md)**
+| <-- Previous Unit | Home | Next Unit -->
+| --- | --- | --- 
+|    **[JavaScript Functions (chapter 5)](web-apps-5.md)** |  **[About this Web App Tutorial Series](web-apps-0.md)** |  **[JavaScript Object Literals (chapter 7)](web-apps-7.md)**
