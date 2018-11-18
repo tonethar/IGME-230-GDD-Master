@@ -168,8 +168,8 @@ items = JSON.parse(items);  			// now it's an Array again
 
 ![Web Page](_images/web-storage-2.jpg)
 
-<hr>
+<hr><hr>
 
-**[Previous Chapter <- JavaScript Arrays (chapter 8)](web-apps-8.md)**
-
-**[Next Chapter -> Web Services (chapter 10)](web-apps-10.md)**
+| <-- Previous Unit | Home | Next Unit -->
+| --- | --- | --- 
+|    **[JavaScript Arrays (chapter 8)](web-apps-8.md)** |  **[About this Web App Tutorial Series](web-apps-0.md)** |  **[Web Services (chapter 10)](web-apps-10.md)**
