@@ -611,8 +611,8 @@ debugger;
 - **Important:** If you have not yet done the [Pixel Artist](HW-pixel-artist.md) homework, go check it out. See the mycourses dropbox for the actual due date.
 - Also be sure to check out the [Life](HW-life.md) and [Adventure!](HW-adventure.md) demos.
 
-<hr>
+<hr><hr>
 
-**[Previous Chapter <- JavaScript Object Literals (chapter 7)](web-apps-7.md)**
-
-**[Next Chapter -> Web Storage (chapter 9)](web-apps-9.md)**
+| <-- Previous Unit | Home | Next Unit -->
+| --- | --- | --- 
+|    **[JavaScript Object Literals (chapter 7)](web-apps-7.md)** |  **[About this Web App Tutorial Series](web-apps-0.md)** |  **[Web Storage (chapter 9)](web-apps-9.md)**
