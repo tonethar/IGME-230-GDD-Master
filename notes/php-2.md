@@ -239,6 +239,10 @@ Here is the documentation for these directives:
 
 <hr><hr>
 
-**[Previous Chapter <- Intro to PHP (chapter 1)](php-1.md)**
 
-**[Next Chapter -> PHP Arrays (chapter 3)](php-3.md)**
+
+
+
+| <-- Previous Unit | Home | Next Unit -->
+| --- | --- | --- 
+|   **[Intro to PHP (chapter 1)](php-1.md)**  |  **[About this PHP Tutorial Series](php-0.md)** | **[PHP Arrays (chapter 3)](php-3.md)**
