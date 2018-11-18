@@ -525,8 +525,8 @@ let links = {
 
 - **Important:** If you have not yet done the [Magnetic Poetry](HW-magnetic-poetry.md) homework, go check it out. See the mycourses dropbox for the actual due date.
 
-<hr>
+<hr><hr>
 
-**[Previous Chapter <- JavaScript Events (chapter 6)](web-apps-6.md)**
-
-**[Next Chapter -> JavaScript Arrays (chapter 8)](web-apps-8.md)**
+| <-- Previous Unit | Home | Next Unit -->
+| --- | --- | --- 
+|    **[JavaScript Events (chapter 6)](web-apps-6.md)** |  **[About this Web App Tutorial Series](web-apps-0.md)** |  **[JavaScript Arrays (chapter 8)](web-apps-8.md)**
