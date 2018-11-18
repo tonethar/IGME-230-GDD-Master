@@ -9,4 +9,4 @@ I. [Overview](#section1)
 
 <hr><hr>
 
-**[Previous Chapter <- PHP Mail & Forms (chapter 4)](php-3.md)**
+**[Previous Chapter <- PHP Mail & Forms (chapter 4)](php-4.md)**
