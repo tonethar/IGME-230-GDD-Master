@@ -151,7 +151,7 @@ items = JSON.parse(items);  			// now it's an Array again
 
 ## V. <a id="section5">Review Questions
 1. What is a limitation of using localStorage on a shared domain like people.rit.edu? What is a workaround that will mitigate this issue?
-1. What is the difference between local and session storage? (Read the documentation or google it)
+1. What is the difference between *local storage* and *session storage*? (Read the documentation or google it)
 1. If the user opens up the demo page in a different web browser on the same machine, will their chosen preferences still be visible? Why or why not? (If you do not know the answer, do an experiment)
 1. Define *serialization*
 1. What does `JSON.stringify()` do?
