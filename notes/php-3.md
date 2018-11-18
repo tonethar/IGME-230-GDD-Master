@@ -264,6 +264,10 @@ When you are done, it will look something like this:
 
 <hr><hr>
 
-**[Previous Chapter <- PHP Scalars & Data Types (chapter 2)](php-2.md)**
 
-**[Next Chapter -> PHP Mail & Forms (chapter 4)](php-4.md)**
+
+
+
+| <-- Previous Unit | Home | Next Unit -->
+| --- | --- | --- 
+|   **[PHP Scalars & Data Types (chapter 2)](php-2.md)**  |  **[About this PHP Tutorial Series](php-0.md)** | **[PHP Mail & Forms (chapter 4)](php-4.md)**
