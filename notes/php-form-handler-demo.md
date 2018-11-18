@@ -1,4 +1,4 @@
-# PHP Form Handler 
+# PHP Form Handler Demo
 
 - In [4 - PHP Mail & Forms](./php-4.md) we learned how to create a PHP form that gathered email information, and "called itself" after the submit button was clicked.
 - But sometimes, we would like for a form on an HTML page to call PHP code located in another file - for example - a form located on your portfolio page that would want to call a PHP mail script located in another file
