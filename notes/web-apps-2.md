@@ -525,8 +525,8 @@ Make a copy of **hello-4.html** and name it **web-apps-2-HW.html**. Delete all o
 1. Print out the absolute value of -999 - use the `Math` object.
 1. Print out an "all caps" version of the string "Hello" - use a method of the `String` object.
 
-<hr>
+<hr><hr>
 
-**[Previous Chapter <- Introduction to Web Applications (chapter 1)](web-apps-1.md)**
-
-**[Next Chapter -> Intro to the Web Browser DOM (chapter 3)](web-apps-3.md)**
+| <-- Previous Unit | Home | Next Unit -->
+| --- | --- | --- 
+|   **[Intro to Web Applications (chapter 1)](web-apps-1.md)**  |  **[About this Web App Tutorial Series](web-apps-0.md)** | **[Intro to the Web Browser DOM (chapter 3)](web-apps-3.md)**
