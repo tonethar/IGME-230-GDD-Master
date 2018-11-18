@@ -91,8 +91,9 @@ The best web site for tracking the adoption of new browser capabilities:
 1. Who is in charge of web standards - the standards bodies or the browser vendors?
 1. List 3 places a web developer can find "web app" documentation.
 
-<hr>
+<hr><hr>
 
-**[Table of Contents <- About this Web App Tutorial Series](web-apps-0.md)**
 
-**[Next Chapter -> Intro to JavaScript (chapter 2)](web-apps-2.md)**
+| <-- Previous Unit | Home | Next Unit -->
+| --- | --- | --- 
+|   :-\  |  **[About this Web App Tutorial Series](web-apps-0.md)** | **[Intro to JavaScript (chapter 2)](web-apps-2.md)**
