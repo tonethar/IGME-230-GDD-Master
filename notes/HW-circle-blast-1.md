@@ -180,11 +180,11 @@ If you try to preview the results you will get an error because we didn't write 
 - There is a lot of interface creation code here - but hopefully it is fairly clear what's going on. 
 - In the game you might create for project 4, you will probably want to create most of this kind of text in an image editing/creation program like Photoshop, and then load in the images you created. It will look better and require less code than the approach we used here. 
 - **Open the game up in the web browser and it should look like this:**
+- *Note: your start button won't show up if an error is encountered before it's added to the scene.  Check the console.  See an error?  We haven't yet written the `startGame()` function.  You can temporarily comment out the line that refers to it to preview your button before moving on.*
 
 ![Screenshot](_images/circle-blast-1.jpg)
 
-- **Clicking the button will cause an error because we have not yet written the `startGame()` function.**
-- You are now done coding the "start scene", so let's move on to the "game scene". 
+- You are now done coding the "start scene", so let's move on to the "game scene" (also, uncomment the line mentioned above if you haven't already). 
 
 ## VII. <a id="section7">Begin coding the Game Scene
 
