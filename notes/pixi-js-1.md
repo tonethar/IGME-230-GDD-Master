@@ -350,14 +350,14 @@ app.stage.addChild(s2);
 
 // #2 - make some PixiJS buttons
 // http://pixijs.download/release/docs/PIXI.Sprite.html
-const b1 = PIXI.Sprite.fromImage('images/button-130.png')
+const b1 = PIXI.Sprite.fromImage('images/button-130.png');
 b1.buttonMode = true;
 b1.anchor.set(0.5);
 b1.x = 100;
 b1.y = 200;
 app.stage.addChild(b1);
 
-const b2 = PIXI.Sprite.fromImage('images/button-130.png')
+const b2 = PIXI.Sprite.fromImage('images/button-130.png');
 b2.buttonMode = true;
 b2.anchor.set(0.5);
 b2.x = 250;
@@ -382,12 +382,12 @@ b1.on('pointerupoutside',e=>{e.target.tint=0xFFFFFF});
 
 function makeRectangle(width=50,height=50,color=0xFF0000){
 	// http://pixijs.download/dev/docs/PIXI.Graphics.html
-	let rect = new PIXI.Graphics()
+	let rect = new PIXI.Graphics();
 	rect.beginFill(color);
 	rect.lineStyle(4, 0xFFFF00, 1);
 	rect.drawRect(-width*.5, -height*.5, width, height);
 	rect.endFill();
-	return rect
+	return rect;
 }
 
 </script>
