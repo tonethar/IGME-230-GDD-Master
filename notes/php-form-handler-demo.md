@@ -60,7 +60,9 @@
 - Two things are different from the previous version of this code:
   - we are not going to echo out a confirmation that the mail was successfully sent, instead after sending the mail ...
   - the code will re-direct back to the page the form is on with this line of PHP code: `header("Location: form.html");`
-- note that if this script echos out anything at all, then the redirect back to the form will fail
+- note that if this script echos out anything at all, then the redirect back to the form will **FAIL!**
+  - that means that there must not be any `echo()` statements in your PHP code
+  - there must also NOT be any HTML or even blank lines *outside* of your PHP code in **form-handler.php** below
 
 **form-handler.php**
 
