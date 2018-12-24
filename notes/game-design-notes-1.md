@@ -15,8 +15,11 @@ Here are two attempts at a definition that we like:
 ## III. Characteristics of Interesting Decisions
 - Tradeoffs - ex. *buy a sword or a healing potion?*
 - Situational - make decisions dependent on the current game situation
-- Personal - the player can express their particular playing style - *conservative*, *aggressive*, *strategic*
+- Personal - the player can express their particular playing style - *conservative* v. *aggressive*, *offensive v. defensive*
 - Persistence - the decision effects the game for a period of time
 
-## IV. Type of Decision
+## IV. Types of Decision
 - Risk v. Reward
+- Short Term v. Long Term
+- Play Style and Personality
+- Multiple goals: short term, medium term, long term, meta goals
