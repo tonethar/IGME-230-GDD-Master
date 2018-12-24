@@ -23,3 +23,5 @@ Here are two attempts at a definition that we like:
 - Short Term v. Long Term
 - Play Style and Personality
 - Multiple goals: short term, medium term, long term, meta goals
+  - going for high score, try to get achievements, trying to beat a particular level, trying to survive as long as possible on hard
+- Customization - let players get invested in game in a way that reflects their personality or play style ex. color of car, name of hero, weapon
