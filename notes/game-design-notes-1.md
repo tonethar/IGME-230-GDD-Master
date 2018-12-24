@@ -24,4 +24,11 @@ Here are two attempts at a definition that we like:
 - Play Style and Personality
 - Multiple goals: short term, medium term, long term, meta goals
   - going for high score, try to get achievements, trying to beat a particular level, trying to survive as long as possible on hard
+  - have different play modes and difficulaty levels
 - Customization - let players get invested in game in a way that reflects their personality or play style ex. color of car, name of hero, weapon
+- Setting the stage for decisions:
+  - what does the player know? (probably less than the designer does)
+  - don't give the player too many choices (3 to 5 max)
+  - what's the learning curve
+  - use genre conventions to make the game comfortable to your players, but go further
+  - give players feedback about their decisions so that they know that the decision was heard
