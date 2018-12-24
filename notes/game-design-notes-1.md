@@ -9,3 +9,14 @@ Here are two attempts at a definition that we like:
 - Risk v. Reward
 - Feedback Loops
 - New player onboarding
+- Find the fun
+
+
+## III. Characteristics of Interesting Decisions
+- Tradeoffs - ex. *buy a sword or a healing potion?*
+- Situational - make decisions dependent on the current game situation
+- Personal - the player can express their particular playing style - *conservative*, *aggressive*, *strategic*
+- Persistence - the decision effects the game for a period of time
+
+## IV. Type of Decision
+- Risk v. Reward
