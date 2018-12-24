@@ -32,3 +32,9 @@ Here are two attempts at a definition that we like:
   - what's the learning curve
   - use genre conventions to make the game comfortable to your players, but go further
   - give players feedback about their decisions so that they know that the decision was heard
+- Refine your design based on player feedback
+- Player Types:
+  - Mr. Kick-Butt
+  - Ms. Genre
+  - Mr. MinMax
+  - Ms. Paranoid
