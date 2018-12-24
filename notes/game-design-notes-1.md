@@ -38,3 +38,4 @@ Here are two attempts at a definition that we like:
   - Ms. Genre
   - Mr. MinMax
   - Ms. Paranoid
+  - Mr. History
