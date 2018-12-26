@@ -24,7 +24,7 @@ Here are two attempts at a definition that we like:
 - Play Style and Personality
 - Multiple goals: short term, medium term, long term, meta goals
   - going for high score, try to get achievements, trying to beat a particular level, trying to survive as long as possible on hard
-  - have different play modes and difficulaty levels
+  - have different play modes and difficulty levels
 - Customization - let players get invested in game in a way that reflects their personality or play style ex. color of car, name of hero, weapon
 - Setting the stage for decisions:
   - what does the player know? (probably less than the designer does)
@@ -39,3 +39,13 @@ Here are two attempts at a definition that we like:
   - Mr. MinMax
   - Ms. Paranoid
   - Mr. History
+  - Mr. Bubble Boy 
+  - Mr. Designer
+ - Making Decisions More Interesting
+   - More/Less (balance the decision)
+   - More Important 
+   - More/Less Information
+   - More Choices/Fewer Choices
+   - More Flavorful (music, graphics)
+   - More/Less Time
+  
