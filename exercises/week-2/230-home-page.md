@@ -17,6 +17,7 @@ Your page's design is up to you, but it needs to contain the following elements:
 * A pleasing (or at least tolerable) color scheme and layout, using your [CRAP](http://www.presentationzen.com/chapter6_spread.pdf) principles and other design guidelines
 * You should use an *external CSS* file for all of your styles.
 * Your CSS should include at least 2 ID selector and 2 class selectors
+  - You may also use Flexbox and/or CSS Grid techniques to improve the design and layout of your page.
 * You must also change all the anchors on your page to match your color scheme (changing all four states)
 * Your page needs to pass W3C [HTML](https://validator.w3.org/) and [CSS](http://jigsaw.w3.org/css-validator/) validation
   - In order to pass and be legible, you also need to *fix Banjo* (i.e. turn off ModPagespeed). If you don't do this, you will lose points on **every** assignment.
