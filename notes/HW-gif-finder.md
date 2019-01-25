@@ -229,7 +229,7 @@ We need to write code to build a URL to the web service. This URL will contain t
 
 ![Web Page](_images/gif-finder-3.jpg)
 
-### A. Explanation
+### A. Explanation (Read this! Don't just type in the code without understanding it!)
 - #1 above - this URL is the Giphy *Search endpoint*. Here's an example of another endpoint, the Giphy "Trending" endpoint: `https://api.giphy.com/v1/gifs/trending`
 - #2 above - this API key identifies you to the owner of the service. API keys are used to track and control how the API is being used - so if the user of this key is abusing the service it can be "turned off". This particular key is a public key and may no longer work when you do the exercise. If it does not, head here to get your own key (it's free!): https://developers.giphy.com/docs/
 - #3 above - we specify a parameter - `api_key` - and then give it a value
@@ -244,7 +244,9 @@ We need to write code to build a URL to the web service. This URL will contain t
 
 ## V. <a id="section5">Testing the URL
 
-- Run the code and click the button. Now head to the console and click on the completed URL, it should open a new browser window that will show you the results of the API request. (If nothing happens, check that your code is correct, and/or copy/paste the URL to a browser location box)
+- Run the code and click the button. Now head to the console and you should see the complete URL to the web service. 
+- Think of this URL as being like calling a function and expecting to get a value back, except in this case the function resides on a remote server. Another difference is that when you call a function in your code, you pass arguments like this `doStuff(arg1,arg2,arg3)`. With a web service, you pass arguments in the *query string* like this `http://www.sample.com/doStuff?arg1=stuff&arg2=moreStuff&arg3=evenMoreStuff`
+- Now click on the completed URL in the console, it should open a new browser window that will show you the results of the API request. (If nothing happens, check that your code is correct, and/or copy/paste the URL to a browser location box)
 
 ### A. After clicking the search button, you should see the URL in the console
 
