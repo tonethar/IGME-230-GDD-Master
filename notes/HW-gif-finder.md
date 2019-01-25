@@ -61,7 +61,7 @@ X. [Homework Assignment](#section10)
 
 - Below is your starting file with the HTML and CSS all done for you. 
 - You can name the file **gif-finder.html**
-- You will also need these images: [gif-finder-start-files.zip](_files/gif-finder-start-files.zip)
+- You will also need these images --> [gif-finder-start-files.zip](_files/gif-finder-start-files.zip)
 
 ### gif-finder.html
 
@@ -218,7 +218,8 @@ X. [Homework Assignment](#section10)
 - In #2 above - this will store what the user searched for, we need it to be in script scope so that we can access it from outside of our  `getData()` function.
 - In #3 above - `getData()` will be called when the button is clicked.
 
-Test the code by clicking the button - and then check the console for the log.
+- Load the page into your browser - the background image behind the text should be visible.
+- Test the code by clicking the button - and then check the console for the log.
 
 
 ## IV. <a id="section4">Capture the user intent and format a URL
