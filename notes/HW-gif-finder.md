@@ -286,7 +286,7 @@ If you do that, oops, you will probably get an error message (unless it is a val
 ![Web Page](_images/gif-finder-16.jpg)
 
 - You can see these by opening the Chrome web inspector and:
-  - #1 --> Select the **Network** tab
+  - #1 --> Select the **Network** tab (and then reload the page)
   - #2 --> Click on the file name on the left
   - #3 --> Click on the **Headers** tab
   
