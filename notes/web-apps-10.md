@@ -23,15 +23,12 @@ In this course, we are just going to scratch the surface and work with the "read
 - The above concept is known in the web world by this term - *Ajax* - https://en.wikipedia.org/wiki/Ajax_(programming)
 - The term *Ajax* was derived from an earlier acronym *AJAX*, which stood for **A**synchronous **J**avaScript **A**nd **X**ML. The acronym fell out of favor because we now commonly retrieve other data formats besides XML.  
 - More on Ajax is here --> [MDN - Ajax](https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX)
-
-In this class we will simplify the process of retrieving remote data by using the `jQuery.ajax()` method of the jQuery library. This method will work well cross-platform, and abstracts away (for better or worse) the details of what's actually happening in the browser.
-
-Behind the scenes, the actual browser APIs that are being used for Ajax by jQuery include these:
-
-- `XMLHttpRequest` (XHR) - https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest
-- `Fetch` API - https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
-- Cross-Origin Resource Sharing (CORS) - https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
-- Cross-site scripting (XSS) can be used to generate &lt;script> tags and download JSON data on the fly - https://en.wikipedia.org/wiki/Cross-site_scripting
+- Here is some more info on Ajax in the web browser:
+  - `XMLHttpRequest` (XHR) - https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest
+  - `Fetch` API - https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
+  - Cross-Origin Resource Sharing (CORS) - https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
+  - Cross-site scripting (XSS) can be used to generate &lt;script> tags and download JSON data on the fly - https://en.wikipedia.org/wiki/Cross-site_scripting
+  - https://github.com/axios/axios
 
 
 ## IV. What are the data formats?
