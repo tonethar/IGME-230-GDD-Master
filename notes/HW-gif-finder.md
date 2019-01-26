@@ -295,33 +295,23 @@ If you do that, oops, you will probably get an error message (unless it is a val
   - When you are working on your web service project, ideally your chosen web service has this turned on
   
 
-## VI. <a id="section6">Importing jQuery
-To download the data, we are going to use the jQuery library and the `jQuery.ajax()` method. *Ajax* in this context means to asynchronously download data from the Internet.
+## VI. <a id="section6">Utilizing XMLHTTPRequest
+	
+- To download the data, we are going to utilize the `XMLHTTPRequest` API (also known as **XHR**)
+- You can read about this API here: https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest
+- What MDN says --> *"Use XMLHttpRequest (XHR) objects to interact with servers. You can retrieve data from a URL without having to do a full page refresh. This enables a Web page to update just part of a page without disrupting what the user is doing. XMLHttpRequest is used heavily in AJAX programming."*
 
-- You can read about the jQuery library here: http://jquery.com
-- You can ready about the `.ajax()` method here: https://api.jquery.com/jQuery.Ajax/
 
-A. To import the jQuery library, you will add a separate &lt;script> tag, right before our existing &lt;script> tag. 
+### VII. <a id="section7">Downloading the data with `XHR`
 
-`<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>`
+### A. Now we are going to tell `XHR` to download the data from the URL we put together
 
-B. Now add this code to the bottom of `getData()`:
+**Add this code to the bottom of `searchButtonClicked()`:**
 
-```javascript
-console.log(jQuery);
-console.log($); // $ is an alias to the jQuery object
+```js
+// 12 Request data!
+getData(url);
 ```
-
-C. Reload the app and click the search button - you should see logs something like this, which will confirm that jQuery is loaded:
-
-![Web Page](_images/gif-finder-8.jpg)
-
-
-### VII. <a id="section7">Downloading the data with `jQuery.ajax()`
-
-### A. Now we are going to tell jQuery to download the data from that URL.
-
-**Add this code to the bottom of `getData()`:**
 
 ![Web Page](_images/gif-finder-9.jpg)
 
