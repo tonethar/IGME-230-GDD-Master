@@ -332,7 +332,8 @@ getData(url);
 - #6 - log out the JSON file we have downloaded
 
 ### D. Run the app and click the search button 
-You should see the JSON we download in the console:
+
+You should see the JSON we downloaded in the console:
 
 ![Web Page](_images/gif-finder-11.jpg)
 
