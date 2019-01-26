@@ -233,7 +233,7 @@ We need to write code to build a URL to the web service. This URL will contain t
 
 **Type this code in:**
 
-![Web Page](_images/gif-finder-4.jpg)
+![Web Page](_images/gif-finder-3.jpg)
 
 ### A. Explanation (Read this! Don't just type in the code without understanding it!)
 - #1 above - this URL is the Giphy *Search endpoint*. Here's an example of another endpoint, the Giphy "Trending" endpoint: `https://api.giphy.com/v1/gifs/trending`
