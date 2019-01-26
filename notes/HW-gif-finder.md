@@ -38,14 +38,14 @@ X. [Homework Assignment](#section10)
   
 **Note: If you have not done so yet, please be sure to look over the [10 - Web Services](web-apps-10.md) chapter.**
 
-### Screen Shots
+### I-A. Screen Shots
 
-#### Starting State:
+#### i) Starting State:
 ![Web Page](_images/gif-finder-1.jpg)
 
 <hr><hr>
 
-#### And after the user has made a search:
+#### ii) And after the user has made a search:
 ![Web Page](_images/gif-finder-2.jpg)
 
 <hr><hr>
