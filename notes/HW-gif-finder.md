@@ -375,7 +375,8 @@ Go ahead and run the code, the app should pretty much look like the second scree
     - Your HTML file should now consist of only HTML - see the screenshot below.
  - Verify that everything still works.
  - (3 points) Finally, improve the CSS styling of this page (which shouldn't be too hard). See the screenshot below as an example of what you could do.
- - See mycourses dropbox for due date.
+- (optional) Did you notice **spinner.gif** in the start images? Go ahead and show it when the user starts asearch, and hide it when a search has completed. Maybe put it in the `#status` &lt;div>
+- See mycourses dropbox for due date.
  
 #### A. Results that display a rating for each GIF
 ![Web Page](_images/gif-finder-15.jpg)
