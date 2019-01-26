@@ -240,7 +240,7 @@ We need to write code to build a URL to the web service. This URL will contain t
 - #8 above - add the search term to the url - the web service requires this parameter name to be `q`
 - #9 above - grab the value of the &lt;select>, and then add the `limit` parameter to the url. Note that parameters are formated as `name=value` and separated by ampersands.
 - #10 above - update the UI with the user's search term
-- #11 above - finally! log out the URL.
+- #11 above - finally! log out the URL
 
 ## V. <a id="section5">Testing the URL
 
@@ -283,7 +283,7 @@ If you do that, oops, you will probably get an error message (unless it is a val
   - #2 Click on the file name on the left
   - #3 Click on the **Headers** tab
   
-- See the `access-control-allow-origin: *` header? 
+- #4 See the `access-control-allow-origin: *` header? 
   - This header means that a web browser from any domain (indicated by `*`) is allowed to download the data
   - This is the header we like to see, because it means that our JavaScript app will definitely be able to get the data
   - When you are working on your web service project, ideally your chosen web service has this turned on
