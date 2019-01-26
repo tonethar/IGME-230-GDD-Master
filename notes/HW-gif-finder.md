@@ -221,8 +221,8 @@ X. [Homework Assignment](#section10)
 
 ### A. Explanation
 - In #1 above - we are hooking up a button event handler in the `window.onload` event. Note we have wrapped the code in an arrow function - we also could have used a regular function - it doesn't matter either way.
-- In #2 above - this will store what the user searched for, we need it to be in script scope so that we can access it from outside of our  `getData()` function.
-- In #3 above - `getData()` will be called when the button is clicked.
+- In #2 above - this will store what the user searched for, we need it to be in script scope so that we can access it from outside of our  `searchButtonClicked()` function.
+- In #3 above - `searchButtonClicked()` will be called when the button is clicked.
 
 - *Load the page into your browser* - the background image behind the text should be visible.
 - *Test the code by clicking the button* - and then check the console for the log.
