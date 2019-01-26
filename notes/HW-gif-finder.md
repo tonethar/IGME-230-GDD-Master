@@ -312,7 +312,8 @@ If you do that, oops, you will probably get an error message (unless it is a val
 // 12 Request data!
 getData(url);
 ```
-**Here is `getData()`:**
+
+**Here is the implementation of `getData()`:** - place this code *outside* of `searchButtonClicked()`:**
 
 ![Web Page](_images/gif-finder-9.jpg)
 
