@@ -323,9 +323,12 @@ getData(url);
 ![Web Page](_images/gif-finder-10.jpg)
 
 ### C. Explanation
-- #12 above - we call the `jQuery.ajax()` method and pass in a *configuration object* that contains method parameters most importantly the **url** we want to download, the **datatype** (JSON), and the function that is called once the data is loaded (the *callback function*).
-- #13 above - is a reference to `jsonLoaded`, which is the callback function we just created. 
-- #14 above - he is the `jsonLoaded()` function - note that it takes a parameter `obj` - which is the JSON we got back from the Giphy web service.
+- #1 above - we create a new XHR object
+- #2 - set the `onload` handler - this is called when the data is successfully loaded
+- #3 - set the `onerror` handler - this is called when some errors occur
+- #4 - open the connection and send the request. "GET" is the HTTP *method* we are using - it means that we are sending web service parameters in the query string (part of the URL) and not as a separate file (which is what the "PUT" method is. 
+- #5 - after the data has loaded, get a reference back to the XHR object
+- #6 - log out the HJSON file we have downloaded
 
 ### D. Run the app and click the search button 
 You should see the JSON we download in the console:
