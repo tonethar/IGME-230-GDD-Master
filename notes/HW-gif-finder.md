@@ -11,9 +11,9 @@ IV. [Capture the user intent and format a URL](#section4)
 
 V. [Testing the URL](#section5)
 
-VI. [Importing jQuery](#section6)
+VI. [Utilizing `XMLHttpRequest`](#section6)
 
-VII. [Downloading the data with `jQuery.ajax()`](#section7)
+VII. [Downloading the data with `XHR`](#section7)
 
 VIII. [Formatting the results for the user](#section8)
 
@@ -302,9 +302,9 @@ If you do that, oops, you will probably get an error message (unless it is a val
 - What MDN says --> *"Use XMLHttpRequest (XHR) objects to interact with servers. You can retrieve data from a URL without having to do a full page refresh. This enables a Web page to update just part of a page without disrupting what the user is doing. XMLHttpRequest is used heavily in AJAX programming."*
 
 
-### VII. <a id="section7">Downloading the data with `XHR`
+## VII. <a id="section7">Downloading the data with `XHR`
 
-### A. Now we are going to tell `XHR` to download the data from the URL we put together
+### A. Now we are going to tell `XHR` to download the data from the URL we assembled above
 
 **Add this code to the bottom of `searchButtonClicked()`:**
 
