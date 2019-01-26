@@ -368,14 +368,14 @@ Go ahead and run the code, the app should pretty much look like the second scree
 
 ## X. <a id="section10">Homework Assignment
 - The assignment is out of 10 points.
-- (5 points) Write JS that utilizes the `rating` property of each result by displaying it for each GIF. You can use `.toUpperCase()` to capitalize each rating (see example screenshot below).
-- (2 points) This HTML page is now a kluge of quite a bit of HTML, CSS, and JavaScript. We need to clean it up by moving the JS code and CSS into different files - "separation of concern" is the term for this. 
+- (**5 points**) Write JS that utilizes the `rating` property of each result by displaying it for each GIF. You can use `.toUpperCase()` to capitalize each rating (see example screenshot below).
+- (**2 points**) This HTML page is now a kluge of quite a bit of HTML, CSS, and JavaScript. We need to clean it up by moving the JS code and CSS into different files - "separation of concern" is the term for this. 
     - Move all of your CSS to a **styles/main.css** file and link to it. Note: You will need to slightly change the `url` of the &lt;header> background image rule to keep things working.
     - Move all of your JavaScript to a **js/main.js** file and link to it.
     - Your HTML file should now consist of only HTML - see the screenshot below.
  - Verify that everything still works.
- - (3 points) Finally, improve the CSS styling of this page (which shouldn't be too hard). See the screenshot below as an example of what you could do.
-- (optional) Did you notice **spinner.gif** in the start images? Go ahead and show it when the user starts asearch, and hide it when a search has completed. Maybe put it in the `#status` &lt;div>
+ - (**3 points**) Finally, improve the CSS styling of this page (which shouldn't be too hard). See the screenshot below as an example of what you could do.
+- (**optional**) Did you notice **spinner.gif** in the start images? Go ahead and show it when the user starts asearch, and hide it when a search has completed. Maybe put it in the `#status` &lt;div>
 - See mycourses dropbox for due date.
  
 #### A. Results that display a rating for each GIF
