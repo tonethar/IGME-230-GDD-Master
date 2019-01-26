@@ -339,15 +339,12 @@ You should see the JSON we downloaded in the console:
 
 ## VIII. <a id="section8">Formatting the results for the user
 
-Now we just need to take the results, loop through them, and create some HTML. Here's the code you need to add to `jsonLoaded()`:
+Now we just need to take the results, loop through them, and create some HTML. Here's the code you need to add to `dataLoaded()`:
 
 ![Web Page](_images/gif-finder-12.jpg)
 
 Go ahead and run the code, the app should pretty much look like the second screenshot at the top of this page.
 
-One more thing - to get the fading working properly, add this line of code to the bottom of `getData()`:
-
-`$("#content").fadeOut(100);` 
 
 
 ### A. Explanation
