@@ -75,7 +75,7 @@ This series of tutorials/lecture notes will get you started in creating web appl
 1. [Intro to Web Services](./web-apps-10.md)
     1. AJAX v. Ajax
     1. JSON
-    1. importing jQuery & utilizing `jQuery.ajax()`
+    1. Utilizing `XMLHttpRequest` (XHR)
 
 ## V. Assignments <a id="section5"></a>
 Refer to the mycourses dropboxes for due dates:
