@@ -284,7 +284,7 @@ If you do that, oops, you will probably get an error message (unless it is a val
   - #3 Click on the **Headers** tab
   
 - #4 See the `access-control-allow-origin: *` header? 
-  - This header means that a web browser from any domain (indicated by `*`) is allowed to download the data
+  - This header means that a web browser from *any* domain (indicated by `*`) is allowed to download the data
   - This is the header we like to see, because it means that our JavaScript app will definitely be able to get the data
   - When you are working on your web service project, ideally your chosen web service has this turned on
   
