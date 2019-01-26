@@ -348,16 +348,17 @@ Go ahead and run the code, the app should pretty much look like the second scree
 
 
 ### A. Explanation
-- In #15 above - if there are no results (an empty array or error) we bail out of parsing and notify the user.
-- In #16 above - here we grab the array of results, and create `bigString`, which will be a big blob of HTML that we will eventually put into the `#content` &lt;div>
-- In #17 above - start the loop
-- In #18 above - we grab the URL to the GIF that we are going to use with an &lt;img> tag
-- In #19 above - grab the main Giphy page URL, which we will later put in a link
-- In #20 above - `line` is going to be all of the HTML for a single result - in this case the title of the GIF, its URL, and its page link wrapped inside of a &lt;div>. We are doing this here using ES6 String Templates.
-- In #21 above - the commented out version used string concatenation.
-- In #22 above - add a single result to `bigString`
-- In #23 above - add everything to the `#content` &lt;div>
-- In #24 above - here we use the jQuery `fadeIn()` method to fade the content in over 1/2 a second. You can read about this method here: http://api.jquery.com/fadein/
+- #7 - above we turn the text into a parsable JavaScript object
+- #8 - if there are no results, bail out by returning
+- #9 - start building the HTML string
+- #10 - loop though the array of results
+- #11 - get the URL to the GIF - we will use this in an &lt;img> tag
+- #12 - grab the main Giphy page URL, which we will later put in a link 
+- #13 - build a <div> for each result - here we are using ES6 template string. The `\`\` character is a backtick, not a single quote. You can find this character on the upper-left of your keyboard.
+- #14 - The old-fashioned way to build a string utilizing concatenation
+- #15 - add the &lt;div> to `bigString` and loop 
+- #16 - all done building the HTML - show it to the user by updating the `#content` &lt;div>
+- #17 - update the `#status` &lt;div>
 
 ## IX. <a id="section9">Wrap up
 - Looks like you are done with most of the coding! Congratulations on your typing!
