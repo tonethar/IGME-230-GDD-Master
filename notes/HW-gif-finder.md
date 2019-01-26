@@ -89,6 +89,11 @@ X. [Homework Assignment](#section10)
  			padding-top: 35px;
  		}
  		
+ 		#status{
+ 			font-style: italic;
+ 			height:32px;
+ 		}
+ 		
  		.result {
 			position: relative;
 			height: 175px;
@@ -161,14 +166,15 @@ X. [Homework Assignment](#section10)
 
   <script>
     // 1
-  	window.onload = (e) => {document.querySelector("#search").onclick = getData};
+  	window.onload = (e) => {document.querySelector("#search").onclick = searchButtonClicked};
 	
 	// 2
 	let displayTerm = "";
 	
 	// 3
-	function getData(){
-		console.log("getData() called");
+	function searchButtonClicked(){
+		console.log("searchButtonClicked() called");
+		
 	}
 	
   </script>
@@ -199,7 +205,7 @@ X. [Homework Assignment](#section10)
 <div class="widgets">
 	<button type="button" id="search" class="green">Find some GIFs!<br />:-)</button>
 </div>
-
+<div id="status">Ready to Search!</div>
 <hr>
 
 <h2>Results</h2>
