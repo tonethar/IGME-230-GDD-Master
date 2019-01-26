@@ -312,12 +312,13 @@ If you do that, oops, you will probably get an error message (unless it is a val
 // 12 Request data!
 getData(url);
 ```
+**Here is `getData()`:**
 
 ![Web Page](_images/gif-finder-9.jpg)
 
 
-### B. Create the callback function
-**This code is the callback function - place it *outside* of `getData()`:**
+### B. Create the callback functions
+**Below are the two callback functions - place this code *outside* of `getData()` and `searchButtonClicked()`:**
 
 ![Web Page](_images/gif-finder-10.jpg)
 
