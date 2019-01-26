@@ -334,17 +334,17 @@ getData(url);
 
 ### D. Run the app and click the search button 
 
-You should see the JSON we downloaded in the console:
+- You should see the JSON we downloaded in the console:
 
 ![Web Page](_images/gif-finder-11.jpg)
 
 ## VIII. <a id="section8">Formatting the results for the user
 
-Now we just need to take the results, loop through them, and create some HTML. Here's the code you need to add to `dataLoaded()`:
+- Now we just need to take the results, loop through them, and create some HTML. Here's the code you need to add to `dataLoaded()`:
 
 ![Web Page](_images/gif-finder-12.jpg)
 
-Go ahead and run the code, the app should pretty much look like the second screenshot at the top of this page.
+- Go ahead and run the code and test the app by performing a search. It should pretty much look like the second screenshot at the top of this page.
 
 
 
