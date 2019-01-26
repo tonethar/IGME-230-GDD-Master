@@ -354,7 +354,7 @@ Go ahead and run the code, the app should pretty much look like the second scree
 - #10 - loop though the array of results
 - #11 - get the URL to the GIF - we will use this in an &lt;img> tag
 - #12 - grab the main Giphy page URL, which we will later put in a link 
-- #13 - build a <div> for each result - here we are using ES6 template string. The \` character is a backtick, not a single quote. You can find this character on the upper-left of your keyboard.
+- #13 - build a &lt;div> for each result - here we are using ES6 template string. The \` character is a backtick, not a single quote. You can find this character on the upper-left of your keyboard.
 - #14 - The old-fashioned way to build a string utilizing concatenation
 - #15 - add the &lt;div> to `bigString` and loop 
 - #16 - all done building the HTML - show it to the user by updating the `#content` &lt;div>
