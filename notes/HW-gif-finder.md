@@ -385,7 +385,7 @@ Go ahead and run the code, the app should pretty much look like the second scree
 ![Web Page](_images/gif-finder-13.jpg)
 
 #### C. Better page design
-![Web Page](_images/gif-finder-14.jpg)
+![Web Page](_images/gif-finder-17.jpg)
 
 
 <hr><hr>
