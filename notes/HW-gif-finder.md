@@ -225,7 +225,7 @@ X. [Homework Assignment](#section10)
 - In #3 above - `searchButtonClicked()` will be called when the button is clicked.
 
 - ***Load the page into your browser*** - the background image behind the text should be visible.
-- ***Test the code by clicking the button*** - and then check the console for the log.
+- ***Test the code by clicking the button*** - and then check the console for the `"searchButtonClicked() called"` log.
 
 
 ## IV. <a id="section4">Capture the user intent and format a URL
