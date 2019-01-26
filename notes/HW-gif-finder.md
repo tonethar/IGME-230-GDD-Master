@@ -48,6 +48,7 @@ X. [Homework Assignment](#section10)
 #### And after the user has made a search:
 ![Web Page](_images/gif-finder-2.jpg)
 
+<hr><hr>
 
 ## II. <a id="section2">Web Service Terms
 
