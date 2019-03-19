@@ -249,7 +249,7 @@ console.log(multiply3(2)); 	// 2, because b has a default value of 1
 - note in #3 that default function parameters are an ES6 feature
 
 ## V. <a id="section5"></a>Variable Scope (`let` & `const`)
-When functions are declared, and when variables are declared using either `let` or `const`, they are *scoped* to the current *block* they were declared in.
+Both functions and variables that are declared using either `let` or `const`, are *scoped* to the current *block* they were declared in.
 
 - A **Block** is delimited by a pair of curly braces `{}` and is used to group zero or more statements.
 - **Scope** means where your variable is accessible and modifiable in your program.
