@@ -294,7 +294,7 @@ If you do that, oops, you will probably get an error message (unless it is a val
   - This header means that a web browser from *any* domain (indicated by `*`) is allowed to download the data
   - This is the header we like to see, because it means that our JavaScript app will definitely be able to get the data
   - When you are working on your web service project, ideally your chosen web service has this turned on
-  - Please read about **Cross-Origin Resource Sharing (CORS)** --> https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS - which is a mechanism that uses additional HTTP headers to tell a browser to let a web application running at one origin (domain) have permission to access selected resources from a server at a different origin
+  - Please read about **Cross-Origin Resource Sharing (CORS)** --> https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS - which is a mechanism that uses additional HTTP headers to tell a browser to let a web application running at one origin (domain) have permission to access selected resources from a server at a different origin (and `access-control-allow-origin:` is an element of CORS)
   
 
 ## VI. <a id="section6">Utilizing XMLHTTPRequest
