@@ -21,6 +21,8 @@ IX. [Wrap up](#section9)
 
 X. [Homework Assignment](#section10)
 
+XI. [Totally Optional](#section11)
+
 <hr>
 
 ## <a id="section1">I. Overview
@@ -387,6 +389,13 @@ getData(url);
 #### C. Better page design
 ![Web Page](_images/gif-finder-17.jpg)
 
+## XI. <a id="section11">Totally Optional
+
+- You might have noticed that no matter how many results you request, you never get more than 25 back? That is because the public key we gave you is capped at 25 results. **Solution:** Get your own API key! (it takes 2 minutes and it's free)
+- Add **next** and **previous** buttons - another really nice option is to allow the user to "page" through large numbers of results. Did you notice that we always get the same 100 "cat" GIFs back when we search?
+  - This is because there are ***thousands*** of cat GIFs on GIPHY, and if we don't otherwise specify we will always get them returned from the web service starting at index 0, which means we always get the first 100 (index 0-99) back.
+  - We can instead write code that requests a higher starting index.
+  - In the GIPHY API this can be done by tracking and adding an `offset` value to the query string that is sent over to the API.
 
 <hr><hr>
 
