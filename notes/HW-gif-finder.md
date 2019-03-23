@@ -294,6 +294,7 @@ If you do that, oops, you will probably get an error message (unless it is a val
   - This header means that a web browser from *any* domain (indicated by `*`) is allowed to download the data
   - This is the header we like to see, because it means that our JavaScript app will definitely be able to get the data
   - When you are working on your web service project, ideally your chosen web service has this turned on
+  - Please read about **Cross-Origin Resource Sharing (CORS)** --> https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS - which is a mechanism that uses additional HTTP headers to tell a browser to let a web application running at one origin (domain) have permission to access selected resources from a server at a different origin
   
 
 ## VI. <a id="section6">Utilizing XMLHTTPRequest
@@ -363,7 +364,6 @@ getData(url);
 
 ## IX. <a id="section9">Wrap up
 - Looks like you are done with most of the coding! Congratulations on your typing!
-- This assignment could be a great "starter" for Project 2.
 - There are a lot of new concepts in this exercise - please review the [10 - Web Services](web-apps-10.md) chapter, this page and all of the GIF Finder code to be sure you understand everything. If you don't understand something, please ask questions about it in class!
 
 ## X. <a id="section10">Homework Assignment
