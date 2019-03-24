@@ -253,13 +253,11 @@ IV. [Amiibo API](#amiibo)
 <head>
 	<meta charset="utf-8" />
  	<title>Anime Schedule Finder</title>
- 	<style>
-	/* We have no style! */
- 	</style>
+ 	<style>/* We have no style! */</style>
 	<!-- Import jQuery -->
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   <script>
-  
+  	"use strict";
 	window.onload = init;
 	
 	function init(){
