@@ -221,8 +221,8 @@ IV. [Amiibo API](#amiibo)
 			if (!smallURL) smallURL = "images/no-image-found.png";
 			let line = `<div class='result'>`;
 			line += `<img src='${smallURL}' title= '${result.id}' />`;
-      line += `<span><a target='_blank' href='${url}'>View on Giphy</a></span>`;
-      line += `</div>`;
+      			line += `<span><a target='_blank' href='${url}'>View on Giphy</a></span>`;
+      			line += `</div>`;
 			bigString += line;
 		}
 		
