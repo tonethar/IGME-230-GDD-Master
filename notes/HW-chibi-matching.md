@@ -50,9 +50,9 @@ The trick is to change the `background-position` property from 0,0 to another po
 - `array.forEach()`
 - `.setTimeout()`
 
-## III. Ideas for project 2
+## III. Ideas for project 3
 
-For project 2 you could extend this application:
+For project 3 you could extend this application:
 
 - keep track of how many cards the players click and then store their score using the WebStorage API (see Part 9 of the web apps tutorial)
 - add a timer, and make that part of their score (use `requestAnimationFrame()` to create a timer)
