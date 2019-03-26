@@ -100,7 +100,7 @@ IV. [Amiibo API](#amiibo)
 			let url = result.url;
 			let smallURL = result.images.fixed_width_small.url;
 			if (!smallURL) smallURL = "images/no-image-found.png";
-			var line = `<div class='result'><img src='${smallURL}' title= '${result.id}' />`;
+			let line = `<div class='result'><img src='${smallURL}' title= '${result.id}' />`;
       			line += `<span><a target='_blank' href='${url}'>View on Giphy</a></span></div>`;
 			bigString += line;
 		}
@@ -560,7 +560,7 @@ IV. [Amiibo API](#amiibo)
 			let result = results[i];
 			let url = result.url;
 			let title = result.title;
-			var line = `<p class='result'><a href='${url}'>${title}</a></p>`;
+			let line = `<p class='result'><a href='${url}'>${title}</a></p>`;
 			bigString += line;
 		}
 		
