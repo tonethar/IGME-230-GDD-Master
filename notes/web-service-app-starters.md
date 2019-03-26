@@ -34,7 +34,7 @@ IV. [Amiibo API](#amiibo)
  	<title>GIF Finder</title>
  	<style>/* We have no style! */</style>
 	<!-- Import jQuery -->
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   <script>
   	"use strict";
 	window.onload = init;
@@ -278,7 +278,7 @@ IV. [Amiibo API](#amiibo)
  	<title>Dog Finder</title>
  	<style>/* We have no style! */</style>
 	<!-- Import jQuery -->
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   <script>
   	"use strict";
 	window.onload = init;
@@ -488,7 +488,7 @@ IV. [Amiibo API](#amiibo)
  	<title>Anime Schedule Finder</title>
  	<style>/* We have no style! */</style>
 	<!-- Import jQuery -->
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   <script>
   	"use strict";
 	window.onload = init;
@@ -727,17 +727,17 @@ IV. [Amiibo API](#amiibo)
 - The Amiibo API can be found here: http://www.amiiboapi.com
 - This API does not currently require an API key
 
+**amiibo-jquery-ajax.html**
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="utf-8" />
  	<title>Amiibo Finder</title>
- 	<style>
-	/* We have no style! */
- 	</style>
+ 	<style>/* We have no style! */</style>
 	<!-- Import jQuery -->
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   <script>
   
 	window.onload = init;
@@ -748,7 +748,7 @@ IV. [Amiibo API](#amiibo)
 	
 	function getData(){
 		// 1 - main entry point to web service
-		const SERVICE_URL = "http://www.amiiboapi.com/api/amiibo/?name=";
+		const SERVICE_URL = "https://www.amiiboapi.com/api/amiibo/?name=";
 		
 		// No API Key required!
 		
@@ -788,6 +788,102 @@ IV. [Amiibo API](#amiibo)
 		bigString += `<img src="${firstResult.image}" title="${firstResult.character}" />`;
 
 		// 8 - display final results to user
+		document.querySelector("#content").innerHTML = bigString;
+	}	
+	
+  </script>
+
+</head>
+<body>
+<header>
+ <h1>Amiibo Finder</h1>
+</header>
+
+<p>Search Term -&gt; <input id="searchterm" type="text" size="20" maxlength="20" autofocus value="mario" /></p>
+<p><button type="button" id="search" class="green">Search!</button></p>
+<p id="debug"></p>
+<hr>
+<h2>Results</h2>
+ <div id="content">
+ <p>No data yet!</p>
+ </div>
+ 
+</body>
+</html>
+```
+
+**amiibo-xhr.html**
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+ 	<title>Amiibo Finder</title>
+ 	<style>/* We have no style! */</style>
+  <script>
+  "use strict";
+	window.onload = init;
+	
+	function init(){
+		document.querySelector("#search").onclick = getData;
+	}
+	
+	function getData(){
+		// 1 - main entry point to web service
+		const SERVICE_URL = "https://www.amiiboapi.com/api/amiibo/?name=";
+		
+		// No API Key required!
+		
+		// 2 - build up our URL string
+		// not necessary for this service endpoint
+		let url = SERVICE_URL;
+		
+		// 3 - parse the user entered term we wish to search
+		// not necessary for this service endpoint
+		let term = document.querySelector("#searchterm").value.trim();
+		term = encodeURIComponent(term);
+		url+=term;
+		
+		// 4 - update the UI
+		document.querySelector("#debug").innerHTML = `<b>Querying web service with:</b> <a href="${url}" target="_blank">${url}</a>`;
+		
+		// 5 - create a new XHR object
+		let xhr = new XMLHttpRequest();
+	
+
+		// 6 - set the onload handler
+		xhr.onload = dataLoaded;
+	
+		// 7 - set the onerror handler
+		xhr.onerror = dataError;
+
+		// 8 - open connection and send the request
+		xhr.open("GET",url);
+		xhr.send();
+	}
+	
+	function dataError(e){
+		console.log("An error occurred");
+	}
+	
+	function dataLoaded(e){
+		// 1 - e.target is the xhr object
+		let xhr = e.target;
+	
+		// 2 - xhr.responseText is the JSON file we just downloaded
+		console.log(xhr.responseText);
+	
+		// 3 - turn the text into a parsable JavaScript object
+		let obj = JSON.parse(xhr.responseText);
+		
+		// 4 - if there is an array of results, loop through them
+		let results = obj.amiibo;
+		let firstResult = results[0];
+		let bigString = "<p><i>Here is the first result!</i></p>";
+		bigString += `<img src="${firstResult.image}" title="${firstResult.character}" />`;
+
+		// 5 - display final results to user
 		document.querySelector("#content").innerHTML = bigString;
 	}	
 	
