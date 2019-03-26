@@ -3,7 +3,7 @@
 - Below is fully functional web service "starter" code for several APIs
 - We have provide 2 examples for each API. One of the examples uses [`jQuery.ajax()`](https://api.jquery.com/jQuery.Ajax/#jQuery-ajax-url-settings), the other uses the browser native [`XMLHttpRequest`](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest) (aka XHR) object
 - These were working as of 3/25/2019
-- For most of these, you will need to apply for your own API key
+- For some of these, you will need to apply for your own API key
 
 ## Contents
 <!--- Local Navigation --->
