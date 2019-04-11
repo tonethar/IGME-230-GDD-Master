@@ -58,7 +58,7 @@ Before doing this exercise, you should have completed the entire [web app series
 
 ## II. <a id="section2">Get started!
 
-The start code is zipped up here: [HW-pixi-game-start.zip](_files/HW-pixi-game-start.zip)
+The start code is zipped up here: [HW-pixi-game-start.zip](_files/HW-pixi-game-start.zip) (click through before downloading)
 
 Take a look at what you have:
 - a **game.html** file - currently it's mostly done for you, except that you are going to have to link to 2 JS libraries, and to 3 other JavaScript files. There will be no custom CSS in this project, other than what's already here for the custom "move" cursor.
