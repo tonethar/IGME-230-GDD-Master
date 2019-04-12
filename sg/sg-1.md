@@ -39,7 +39,7 @@
 
 `http://www.rit.edu/documents/admissions/orientation.html`
 
-1. What does the `s` in `https` stand for?
+14. What does the `s` in `https` stand for?
 
 1. What is the advantage of having an "index" file (ex. index.html) in every one of your web directories?
 
