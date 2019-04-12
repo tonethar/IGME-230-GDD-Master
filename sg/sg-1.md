@@ -5,11 +5,11 @@
 
 
 ## Chapter 1 - Getting started in web design
-- This chapter blah blah
+- *This chapter blah blah*
 
 ## Chapter 2 - How the web works
 
-- This chapter blah blah
+- *This chapter blah blah*
 
 1. What is the *Internet*?
 
