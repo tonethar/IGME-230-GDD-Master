@@ -7,6 +7,8 @@
 ## Chapter 1 - Getting started in web design
 - *This chapter blah blah*
 
+<hr>
+
 ## Chapter 2 - How the web works
 
 - *This chapter blah blah*
