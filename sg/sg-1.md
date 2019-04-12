@@ -57,4 +57,4 @@
 
 1. List the 5 steps of the simplified HTTP protocol shown on page 33
 
-1. Finally, be sure that you can answer the "Test Yourself" questions on page 34. You don't need to write the answers here
+1. Finally, be sure that you can answer the "Test Yourself" questions on page 34. **You DO NOT need to write the answers to these questions below.**
