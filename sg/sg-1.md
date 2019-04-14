@@ -1,8 +1,9 @@
 # Study Guide 1
 
-- Instructions: Read Chapters 1 - X of Learning Web Design (5th Edition) and answer the questions below
+- Instructions: Read Chapters 1 - 3 of Learning Web Design (5th Edition) and answer the questions below
 - Due: XX/XX start of class
 
+<hr>
 
 ## Chapter 1 - Getting started in web design
 - *This chapter blah blah*
@@ -60,3 +61,7 @@
 1. List the 5 steps of the simplified HTTP protocol shown on page 33
 
 1. Finally, be sure that you can answer the "Test Yourself" questions on page 34. **You DO NOT need to write the answers to these questions below.**
+
+<hr>
+
+## Chapter 3 - Marking Up text
