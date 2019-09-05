@@ -25,7 +25,9 @@ Unfortunately, there are undesirable byproducts for creaters of web pages that a
 ![HTTP Headers](images/banjo-modpagespeed-headers.jpg)
 
 
-***In this instance, the browser doesn't seem to be doing anything about it that we know of. But because HTTP headers are human readable, it's easy for us as web developers to see why our CSS and JS is getting compressed. Move on to the next part to turn off the PageSpeed module!***
+***In this instance, the browser doesn't seem to be much anything about it that we know of. But because HTTP headers are human readable, it's easy for us as web developers to see why our CSS and JS is getting compressed. Move on to the next part to turn off the PageSpeed module!***
+
+***One thing the server is doing here is stripping out all of the white space in the document - make a note of your file size - which is the `Content-Length` header in the response headers) before you move on***
 
 ## II. .htaccess files to the rescue!
 
@@ -41,8 +43,9 @@ Note: htaccess files are *plain text* files - just like HTML, CSS or JS files - 
 
 ## III. Instructions:
 1. Using your SFTP client of choice, upload this file to the `www` folder on your banjo.rit.edu account.
-2. Then, on Banjo, change its filename from htaccess to .htaccess (just add a "." to the front of the name). Make sure you set the permissions on this file to 644. Then you should be all good!
-3. **Important:** If you already have a .htaccess file in the www folder, don't replace it with the one we gave you. Instead, just add `ModPagespeed off` to the end of it.
+2. Then, on Banjo, change its filename from htaccess to .htaccess (just add a "." to the front of the name). Make sure you set the permissions on this file to 644. 
+3. Now you should be all good! Check the response headers and the file size (the `Content-Length` header) to be sure that PageSpeed is turned off.
+4. **Important:** If you already have a .htaccess file in the www folder, don't replace it with the one we gave you. Instead, just add `ModPagespeed off` to the end of it.
 
 **Note:** The reason we don't use the "." before uploading the file is that on Unix-based systems, like the Mac, any file starting with a "." is considered a system file and *hidden* - i.e., invisible, and difficult for us to find in order to upload to the server.
 
