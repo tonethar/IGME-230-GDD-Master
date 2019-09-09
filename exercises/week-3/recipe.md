@@ -63,9 +63,9 @@ Don't worry about adding links yet; we'll be doing that later.
  
 1. Once you're satisfied with the HTML file, upload your **exercises** folder (which includes your **recipe** folder and its contents) to your **230** folder on Banjo. 
 
-2. Test it by going to `http://people.rit.edu/yourid/230/exercises/recipe` -- you should see the .txt and .html files, and the image. Click on the html file and make sure it displays properly. 
+2. Test it by going to `http://people.rit.edu/yourid/230/exercises/recipe/` -- you should see the .txt and .html files, and the image. Click on the html file and make sure it displays properly. 
 
-3. Test this page with the validator.  Do not continue until the page passes validation.
+3. Test this page with the validator at https://validator.w3.org - do not continue until the page passes validation.
 
 If you run into problems here, **ask for help ASAP**. 
 
@@ -76,7 +76,7 @@ First a bit of semantic tagging for our recipe:
 1. Edit your Ingredients list so that it has a **class** attribute of "ingredients".
 2. Make the URL at the bottom of the page into a hypertext link and wrap it in a `<footer>` element.  It should look like this:
 
-    ```
+    ```html
     <footer>
         <a href = "http://...">source: http://...</a>
     </footer>
@@ -86,7 +86,7 @@ Note:  replace the "..." with the rest of the URL.
 3. Add an additional link at the bottom of the page (after the source link and within the footer) that goes to your ([future?](../week-2/230-home-page.md)) home page for this class (http://people.rit.edu/abc1234/230).  Wrap each of these links in `<p>` tags.
 4. Preview the page.  It should look like the image below.
 ![Structured Content](images/recipe-2.jpg)
-5. Test this page with the validator.  Do not continue until the page passes validation.
+5. Test this page with the validator.  Do not continue until the page passes validation at https://validator.w3.org
 
 ***At this point in the exercise, we're shifting from material discussed in the first half of the week to material discussed in the 2nd half of the week.  Consult the lecture notes if it's still early in the week and you want to work ahead.***
 
@@ -189,9 +189,5 @@ Now, while this page probably won't win any design awards, the "look" and access
 http://jigsaw.w3.org/css-validator/
 
 ## X. Homework Submission
-Complete all steps above and when you're done:
-1. Zip your **recipe** folder for submission to the dropbox.
-2. Upload your finished files so that they appear on banjo at the URL mentioned in Section IV. Step 2.  Do not hide your index view, we want to be able to view your .css file easily by clicking to it (adjust your other .htaccess file or add a new one in this directory if necessary to correct).
-3. If you've already finished [the other Homework](../week-2/230-home-page.md), link to the remote **recipe.html** page from your 230 Homepage.
-3. Check the dropbox for other details.
+- See myCourses
 
