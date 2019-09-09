@@ -1,4 +1,4 @@
-# ICE: Basic HTML, CSS, and Validation 
+# Recipe ICE: Basic HTML, CSS, and Validation 
 
 ## I. Overview & Goals
 
