@@ -13,7 +13,7 @@
 3) The app displays a list of all of the suggestions (i.e. the array) to the user:
     - the list will be sorted alphabetically
     - the list will be hidden under a `<details>` tag
-    - the `<summary>` text will be  “All Suggestions”
+    - the `<summary>` text will be  "All Suggestions"
 
 4) Give the user a way to add a suggestion to the array:
     - use an `<input>` element
