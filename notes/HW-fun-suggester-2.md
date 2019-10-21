@@ -16,7 +16,7 @@
     - the `<summary>` text will be  “All Suggestions”
 
 4) Give the user a way to add a suggestion to the array:
-    -  use an `<input>` element
+    - use an `<input>` element
     - there will be a `<button>` that the user can click to add the suggestion to the array
     - do not let the user add the text "New fun thing to do" to the array
     - do not let the user add an item to the suggestions array if it already exists in said array (i.e. the same item can not be in the array twice)
@@ -39,11 +39,11 @@
   
 3) Display a list of all suggestions:
     - the list will be sorted alphabetically - see [Web Apps 8 - JavaScript Arrays](./web-apps-8.md) for help
-    - this list will be hidden under a `<details>` tag & the `<summary>` text will be  "All Suggestions":
-      - see this page for help with `<details>` and `<summary>`: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details
+    - see this page for help with `<details>` and `<summary>`: 
+      - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details
 
 4) Give the user a way to add a suggestion to the array: 
-    -  the `<input>` can llok something like this: 
+    -  the `<input>` can look something like this: 
       - `<input id="newItemInput" type="text" value="New fun thing to do" />`
     - clicking the "Add Suggestion" button must call an `addSuggestion()` function
     
