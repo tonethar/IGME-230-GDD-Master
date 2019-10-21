@@ -16,7 +16,7 @@
     - the `<summary>` text will be  “All Suggestions”
 
 4) Give the user a way to add a suggestion to the array:
-    -  use an `<input>` element - something like this: `<input id="newItemInput" type="text" value="New fun thing to do" />`
+    -  use an `<input>` element
     - there will be a `<button>` that the user can click to add the suggestion to the array
     - do not let the user add the text "New fun thing to do" to the array
     - do not let the user add an item to the suggestions array if it already exists in said array (i.e. the same item can not be in the array twice)
@@ -31,7 +31,7 @@
 
 1) Click a button to see a new suggestion:
     - see [Web Apps 6 - JavaScript Events](./web-apps-6.md) for help with this
-    - put the “random event generation” code in a function named `getRandomEvent()`
+    - put the "random event generation" code in a function named `getRandomEvent()`
       - See [Web Apps 5 - JavaScript Functions](./web-apps-5.md) for help on writing functions
 
 2) The app will remember the last suggestion:
@@ -43,7 +43,10 @@
       - see this page for help with `<details>` and `<summary>`: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details
 
 4) Give the user a way to add a suggestion to the array: 
+    -  the `<input>` can llok something like this: 
+      - `<input id="newItemInput" type="text" value="New fun thing to do" />`
     - clicking the "Add Suggestion" button must call an `addSuggestion()` function
+    
 
 5) 
 
