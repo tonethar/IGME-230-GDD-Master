@@ -1,4 +1,4 @@
-## Fun Suggester II - *Son of Fun Suggester*
+# Fun Suggester II - *Son of Fun Suggester*
 
 
 - Mission: Enhance your Fun Suggester!
