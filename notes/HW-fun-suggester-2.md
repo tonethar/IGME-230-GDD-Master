@@ -58,8 +58,11 @@
 ## III. Process
   - Get back with your *Fun Suggester* partner from last time
   - If you were not here last time, find someone to work with, and get going on *Fun Suggester* first (see myCourses for the PDF)
+  
+## IV. Other Stuff
+  - DO NOT use DOM methods such as `.getElementsByTagName()`, `.getElementById()` or `.getElementsByClassName()` - instead, use `document.querySelector()` and `document.querySelectorAll()`
 
-## IV. Submission
+## V. Submission
   - See dropbox for due date
   - This app will be submitted by the New Media Design student
   - Post this to the web
