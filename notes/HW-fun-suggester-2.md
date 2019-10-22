@@ -29,7 +29,7 @@
 
 ## II. Implementation details
 
-0) The name of the app is **fun-suggester-2.html** & the app will consist of validated HTML & CSS:
+0) The name of the app is **fun-suggester-2.html** & the app's HTML & CSS will validate:
     - https://validator.w3.org
     - https://jigsaw.w3.org/css-validator/
 
