@@ -29,7 +29,9 @@
 
 ## II. Implementation details
 
-0) The name of the app is **fun-suggester-2.html**
+0) The name of the app is **fun-suggester-2.html** & the app will consist of validated HTML & CSS:
+  - https://validator.w3.org
+  - https://jigsaw.w3.org/css-validator/
 
 1) Click a button to see a new suggestion:
     - see [Web Apps 6 - JavaScript Events](./web-apps-6.md) for help with this
