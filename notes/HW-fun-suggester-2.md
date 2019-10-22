@@ -1,7 +1,7 @@
 # Fun Suggester II - *Son of Fun Suggester*
 
 
-- Mission: Enhance your Fun Suggester!
+- Mission: Enhance your *Fun Suggester*!
 
 
 ## I. Functional and Presentational Details
