@@ -6,7 +6,7 @@
 
 ## I. Functional and Presentational Details
 
-1) There is a button that displays a new fun suggestion when it is clicked
+1) There is a button that displays a new "fun suggestion" when it is clicked
 
 2) When the web app browser window is closed, and then re-opened at a later time, the app will remember and display the most recent suggestion that was displayed to user
 
@@ -53,7 +53,7 @@
     - hint: loop through the array and check for a duplicate entry prior to adding a suggestion to it
     
 5) The app will remember and display any suggestions that the user adds to it:
-    - Store the array in **HTML5 Local Storage** again
+    - Store the array in **HTML5 Local Storage** - see [Web Apps 9 - WebStorage API](./web-apps-9.md) for help with this
 
 ## III. Process
   - Get back with your *Fun Suggester* partner from last time
