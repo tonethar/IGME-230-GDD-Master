@@ -61,6 +61,7 @@
   
 ## IV. Other Stuff
   - DO NOT use DOM methods such as `.getElementsByTagName()`, `.getElementById()` or `.getElementsByClassName()` - instead, use `document.querySelector()` and `document.querySelectorAll()`
+  - you might find this assignment difficult to complete. If so, just finish what you can and hand it in on time
 
 ## V. Submission
   - See dropbox for due date
