@@ -8,7 +8,7 @@
 
 1) There is a button that causes a new "fun suggestion" to be displayed when it is clicked
 
-2) When the web app browser window is closed, and then re-opened at a later time, the app will remember and display the most recent suggestion that was displayed to user
+2) When the web app browser window is closed, and then re-opened at a later time, the app will remember and display the most recent suggestion that was displayed to the user
 
 3) The app displays a list of all of the suggestions (i.e. the array) to the user:
     - the list will be sorted alphabetically
