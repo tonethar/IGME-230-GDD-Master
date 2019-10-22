@@ -37,7 +37,8 @@
       - See [Web Apps 5 - JavaScript Functions](./web-apps-5.md) for help on writing functions
 
 2) The app will remember the last suggestion:
-   - store the value in [HTML5 Local Storage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
+   - store the value in [HTML5 Local Storage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage) whenever the user clicks the "Get Suggestion" button
+   - grab the value from HTML5 Local Storage whenever the app starts up
    - see [Web Apps 9 - WebStorage API](./web-apps-9.md) for help with this
   
 3) Display a list of all suggestions:
