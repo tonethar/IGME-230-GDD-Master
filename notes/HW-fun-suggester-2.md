@@ -60,8 +60,9 @@
   - If you were not here last time, find someone to work with, and get going on *Fun Suggester* first (see myCourses for the PDF)
   
 ## IV. Other Stuff
-  - DO NOT use DOM methods such as `.getElementsByTagName()`, `.getElementById()` or `.getElementsByClassName()` - instead, use `document.querySelector()` and `document.querySelectorAll()`
-  - you might find this assignment difficult to complete. If so, just finish what you can and hand it in on time
+  - DO NOT use DOM methods such as `.getElementsByTagName()`, `.getElementById()` or `.getElementsByClassName()`
+  - instead, use `document.querySelector()` and `document.querySelectorAll()` to select DOM elements
+  - you might find this assignment difficult to complete - if so, just finish what you can and hand it in on time
 
 ## V. Submission
   - See dropbox for due date
