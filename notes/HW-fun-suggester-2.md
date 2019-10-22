@@ -18,7 +18,6 @@
 4) Give the user a way to add a suggestion to the array:
     - use an `<input>` element
     - there will be a `<button>` that the user can click to add the suggestion to the array
-    - do not let the user add the text "New fun thing to do" to the array
     - do not let the user add an item to the suggestions array if it already exists in said array (i.e. the same item can not be in the array twice)
     - this functionality (the `<input>` and `<button>` will be hidden under a `<details>` tag
     - the `<summary>` text will be  "Add a Suggestion"
@@ -49,6 +48,7 @@
 4) Give the user a way to add a suggestion to the array: 
     - the `<input>` can look something like this: 
       - `<input id="newItemInput" type="text" value="New fun thing to do" />`
+      - do not let the user add the text "New fun thing to do" to the array
     - clicking the "Add Suggestion" button must call an `addSuggestion()` function
     - hint: loop through the array and check for a duplicate entry prior to adding a suggestion to it
     
