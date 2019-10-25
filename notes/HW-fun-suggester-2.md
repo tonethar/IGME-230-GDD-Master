@@ -83,6 +83,7 @@
 - Hints:
   - don't forget to use structural tags like `<nav>` `<main>` `<footer>` `<section>`
   - this version used `vh`, `vw`, `vmax` and `vmin` ALOT - so it looked presentable at all viewport sizes
+  - the `overflow` property might come in handy
   - for requirement II-5 above [`array.contains()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes) comes in handy
   - optionally, so that sorting and avoiding duplicate entries works better, consider capitalizing the first word of an activity before adding it to the array
   - organize your code:
