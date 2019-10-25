@@ -79,9 +79,24 @@
 - Here's the "Professor version" - New Media Designers - you can do better on the design!
 - The "Reset to Defaults" button is optional, but nice for testing
 - Hints:
+  - don't forget to use structural tags like `<nav>` `<main>` `<footer>` `<section>`
   - this version used `vh`, `vw`, `vmax` and `vmin` ALOT - so it looked presentable at all viewport sizes
-  - for II-5 above [`array.contains()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes) comes in handy
+  - for requirement II-5 above [`array.contains()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes) comes in handy
+  - optionally, so that sorting and avoiding duplicate entries works better, consider capitalizing the first word of an activity before adding it to the array
+  - organize your code:
+    - give your HTML elements `id` values that make sense
+    - give your variables names that make sense
+    - put most (if not all) of your code inside functions - here are the function names that we used for this example - but be sure to do what makes sense for your version:
+      - `init()`
+      - `loadData()`
+      - `saveData()`
+      - `resetAllData()`
+      - `addItemToList(item)`
+      - `showSuggestion(s)`
+      - `showAllActivities()`
+      - `uppercaseFirstLetter(s)`
   
+  <hr>
   
 ![screenshot](_images/fun-suggester-final-1.jpg)
   
