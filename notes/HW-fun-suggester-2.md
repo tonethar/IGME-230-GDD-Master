@@ -74,6 +74,8 @@
   - Send the link to your NMID partner
   - ZIP and POST to dropbox - and be sure to put the link and the name of your NMID partner in the comments field
  
+<a id="section6"></a>
+
 ## VI. Screen shots
 
 - Here's the "Professor version" - New Media Designers - you can do better on the design!
