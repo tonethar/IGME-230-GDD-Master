@@ -73,3 +73,18 @@
   - Post this to the web
   - Send the link to your NMID partner
   - ZIP and POST to dropbox - and be sure to put the link and the name of your NMID partner in the comments field
+ 
+## VI. Screen shots
+
+- Here's the "Professor version" - New Media Designers - you can do better on the design!
+- The "Reset to Defaults" button is optional, but nice for testing
+- Hints:
+  - this version used `vh`, `vw`, `vmax` and `vmin` ALOT - so it looked presentable at all viewport sizes
+  - for II-5 above [`array.contains()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes) comes in handy
+  
+  
+![screenshot](_images/fun-suggester-final-1.jpg)
+  
+![screenshot](_images/fun-suggester-final-2.jpg)
+    
+![screenshot](_images/fun-suggester-final-3.jpg)
