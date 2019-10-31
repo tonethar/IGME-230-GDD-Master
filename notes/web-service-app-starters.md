@@ -426,7 +426,7 @@ IV. [Amiibo API](#amiibo)
 		}
 		
 		// 5 - if there is an array of results, loop through them
-		let results = obj.data
+		// but there's only one result in this case, so just grab it
 		let bigString = "<p><i>Here is the result!</i></p>";
 		let src = obj.message;
 		
