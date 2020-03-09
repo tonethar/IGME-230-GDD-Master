@@ -231,7 +231,7 @@ Here is the documentation for these directives:
  ## X. <a id="section10">Review Questions
 1. Give 2 ways to *concatenate* strings in PHP.
 1. List the 4 PHP *scalar* types.
-1. True or False. PHP variables are not typed.
+1. True or False. PHP variables are *strongly typed*, like Java, C#, and C++
 
 
  ## XI. <a id="section11">Review Exercise
