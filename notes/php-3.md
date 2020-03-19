@@ -105,7 +105,7 @@ Arrays in PHP are not objects like you see in many other languages, but are inst
  ```
  
  
- Other operations you can do include sorting arrays:
+ Other operations you can do include sorting arrays ([php.net - `sort()`](https://www.php.net/manual/en/function.sort.php)):
  
   **php-arrays-4.php**
  ```php
