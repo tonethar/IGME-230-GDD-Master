@@ -27,9 +27,9 @@ XI. [Review Exercise](#section11)
 <hr><hr>
 
 ## I. <a id="section1">PHP Types
-- PHP has 4 *scalar* (i.e. "primitive") types: integer, float (aka double), string and boolean
-- PHP has 2 *composite* types: array and object
-- PHP has 2 *special* types: resource and null
+- PHP has 4 *scalar* (i.e. "primitive") types: [integer](https://www.php.net/manual/en/language.types.integer.php), [float](https://www.php.net/manual/en/language.types.float.php) (aka double), [string](https://www.php.net/manual/en/language.types.string.php) and [boolean](https://www.php.net/manual/en/language.types.boolean.php)
+- PHP has 2 *composite* types: [array](https://www.php.net/manual/en/language.types.array.php) and [object](https://www.php.net/manual/en/language.types.object.php)
+- PHP has 2 *special* types: [resource](https://www.php.net/manual/en/language.types.resource.php) and [null](https://www.php.net/manual/en/language.types.null.php) (resource is an [opaque data type](https://en.wikipedia.org/wiki/Opaque_data_type))
 
 ## II. <a id="section2">PHP Variables
 - variables in PHP are denoted with a leading dollar sign `$`
